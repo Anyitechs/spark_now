@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    /* This defines what 1rem should be */
+    // font-size: 62.5%;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+    // font-weight: 400;
+    // line-height: 1.7;
+    // color: gray;
+    // padding: 3rem;
+    box-sizing: border-box;
+}
+
+
+$color-primary: #F5444F;
+$color-secondary: #ffffff;
+$color-tertiary: #CBF7F0;
+$color-footer: #1B1B1B;
+
+.home {
+    background-color: $color-tertiary;
+
+    .navigation {
+        display: flex;
+
+        &__logo {
+            max-width: 20%;
+            margin-left: 3rem;
+        }
+
+        &__list {
+            margin-top: 3.5rem;
+            margin-left: 23rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__item {
+            list-style: none;
+        }
+
+        &__link {
+            &:link,
+            &:visited {
+                text-decoration: none;
+                padding-left: 2rem;
+                color: $color-primary;
+            }
+        }
+    }
+
+    .banner {
+        margin-left: 5rem;
+        margin-top: 5rem;
+
+        &__content {
+            padding-bottom: 5rem;
+
+            &--image {
+                display: flex;
+
+                &-contact {
+                    color: $color-primary;
+                    font-size: 1.0625rem;
+                    text-transform: uppercase;
+                    margin-left: 1rem;
+                    margin-top: .7rem;
+                }
+            }
+
+            &--heading {
+                color: $color-primary;
+                margin-top: 1.5rem;
+                font-size: 2.5rem;
+            }
+
+            &--text {
+                margin-top: 1.5rem;
+                line-height: 1.5;
+                color: $color-primary;
+                font-size: 1.0625rem;
+            }
+        }
+    }
+}
+
+.contact {
+    position: relative;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: -14rem;
+    margin-left: 5rem;
+
+    &__details {
+        // margin-bottom: 2rem;
+
+        &__first {
+            display: flex;
+
+            &--phone {
+
+                &-heading {
+                    line-height: 3;
+                    font-size: 1.5rem;
+                }
+
+                &-text {
+
+                    span {
+                        margin-left: .7rem;
+                    }
+                }
+            }
+
+            &--email {
+                margin-left: 3rem;
+
+                &-heading {
+                    line-height: 3;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        &__second {
+            margin-top: 3rem;
+
+            &--heading {
+                line-height: 3;
+                font-size: 1.5rem;
+            }
+
+            &--text {
+                line-height: 3;
+            }
+        }
+    }
+
+    &__form {
+        position: relative;
+        bottom: 19rem;
+        left: 2rem;
+        margin-left: 8rem;
+        width: 32rem;
+        background: #FFFFFF;
+        box-shadow: 0px 2.6807px 32.1684px rgba(50, 0, 153, 0.05);
+        border-radius: 16px;
+
+        & > label {
+            display: block;
+            margin-left: 3.2rem;
+        }
+
+        & > textarea {
+            border: 1px solid #313131;
+            filter: drop-shadow(0px 2.6807px 32.1684px rgba(50, 0, 153, 0.05));
+            border-radius: 8px;
+            margin-left: 3.2rem;
+        }
+
+        &--text {
+            color: #333333;
+            margin-left: 3.2rem;
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        &--input {
+            width: 80%;
+            padding: 1rem;
+            border: 1px solid #313131;
+            filter: drop-shadow(0px 2.6807px 32.1684px rgba(50, 0, 153, 0.05));
+            border-radius: 8px;
+            margin-bottom: 1.2rem;
+            margin-left: 3.2rem;
+        }
+
+        &--submit {
+            background-color: $color-primary;
+            color: $color-secondary;
+            padding: 10px;
+            width: 25.3rem;
+            height: 3rem;
+            margin-top: 3rem;
+            margin-left: 3.2rem;
+            margin-bottom: 5rem;
+            border: none;
+            border-radius: 8px;
+        }
+    }
+}
+
+.couple {
+    display: flex;
+    margin-left: 5rem;
+
+    &__content {
+        margin-top: 8rem;
+
+        &--amazing {
+            text-transform: uppercase;
+            color: $color-primary;
+        }
+
+        &--heading {
+            color: $color-primary;
+            font-size: 3rem;
+            margin-top: 1.5rem;
+            line-height: 1.2;
+        }
+
+        &--description {
+            margin-top: 1.5rem;
+        }
+    }
+
+    &__vector {
+        position: relative;
+        left: 8rem;
+
+        &--image {
+            max-width: 100%;
+        }
+    }
+}
+
+
+.hand {
+    position: relative;
+    margin-bottom: -13rem;
+
+    &__up {
+        position: relative;
+        top: 1.3rem;
+        left: 59rem;
+        z-index: 1;
+        max-width: 50%;
+    }
+
+    &__down {
+        position: relative;
+        top: 14.5rem;
+        z-index: 1;
+        left: 41rem;
+        max-width: 50%;
+    }
+}
+
+
+.box {
+    background-color: $color-primary;
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 2rem;
+    height: 23rem;
+    position: relative;
+    top: 4rem;
+
+    &__image {
+        margin-top: 4rem;
+        margin-left: 10rem;
+
+        &--image {
+            max-width: 65%;
+        }
+    }
+
+    &__content {
+        margin-top: 4rem;
+        margin-right: 7rem;
+
+        &--heading {
+            color: $color-secondary;
+            font-size: 1.7rem;
+        }
+
+        &--text {
+            color: $color-secondary;
+            margin-top: 2rem;
+            line-height: 2;
+        }
+
+        &--button {
+            display: flex;
+            margin-right: 2rem;
+            margin-top: 3rem;
+
+            &--image {
+                max-width: 60%;
+            }
+        }
+
+        &--link:last-child {
+            margin-left: -5rem;
+        }
+    }
+}
+
+
+
+.footer {
+    margin-top: -7.5rem;
+    background-color: $color-footer;
+    display: flex;
+    // padding-top: 1rem;
+    // padding-bottom: .5rem;
+
+    &__logo {
+        margin-top: 15rem;
+        margin-bottom: 7rem;
+        margin-left: 8rem;
+
+        &--logo {
+            max-width: 50%;
+            margin-bottom: 2rem;
+        }
+
+        &--copyright {
+            color: $color-secondary;
+            opacity: 0.5;
+            line-height: 3;
+        }
+
+        &--terms {
+            color: $color-secondary;
+            opacity: 0.5;
+            // font-style: .8rem;
+        }
+    }
+
+    &__company {
+        margin-top: 16.5rem;
+        margin-left: 3rem;
+
+        &--company {
+            color: $color-secondary;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+
+        &--link {
+            text-decoration: none;
+        }
+
+        &--text {
+            color: $color-secondary;
+            opacity: 0.5;
+            margin-bottom: 2rem;
+        }
+
+    }
+
+    &__intouch {
+        margin-top: 16.5rem;
+        margin-left: 10rem;
+
+        &--heading {
+            color: $color-secondary;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+
+        &--enquiry {
+            color: $color-secondary;
+            opacity: 0.5;
+            margin-bottom: 2rem;
+        }
+
+        &--email {
+            color: $color-secondary;
+            margin-bottom: 2rem;
+        }
+
+        &--socials {
+
+            & > a {
+                text-decoration: none;
+            }
+
+            &-image {
+                max-width: 15%;
+            }
+
+            &-twitter {
+                margin-left: 1rem;
+            }
+
+            &-instagram {
+                margin-left: 1rem;
+            }
+        }
+    }
+}

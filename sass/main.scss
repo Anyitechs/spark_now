@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    /* This defines what 1rem should be */
+    // font-size: 62.5%;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+    // font-weight: 400;
+    // line-height: 1.7;
+    // color: gray;
+    // padding: 3rem;
+    box-sizing: border-box;
+}
+
+
+$color-primary: #F5444F;
+$color-secondary: #ffffff;
+$color-footer: #1B1B1B;
+
+
+.home {
+    background-color: $color-primary;
+    position: relative;
+    z-index: 0;
+
+    .background {
+        position: relative;
+        background-image: url('images/Endless.png');
+        z-index: 12;
+    }
+
+    .navigation {
+        display: flex;
+
+        &__logo {
+            max-width: 20%;
+            margin-left: 3rem;
+        }
+
+        &__list {
+            margin-top: 3.5rem;
+            margin-left: 23rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__item {
+            list-style: none;
+        }
+
+        &__link {
+            &:link,
+            &:visited {
+                text-decoration: none;
+                padding-left: 2rem;
+                color: $color-secondary;
+            }
+        }
+    }
+
+    .banner {
+        display: flex;
+        margin-top: 5rem;
+
+        &__content {
+            margin-left: 5rem;
+
+            &--image {
+                max-width: 50%;
+                margin-bottom: 1.3rem;
+            }
+
+            &--description {
+                font-size: 1rem;
+                color: $color-secondary;
+                line-height: 1.5rem;
+            }
+        }
+
+        &__button {
+            display: flex;
+            margin-top: 2rem;
+
+            &--link:last-child {
+                margin-left: -11.5rem;
+            }
+
+            &--image {
+                max-width: 40%;
+            }
+        }
+
+        &__slide {
+            margin-right: 10rem;
+            position: relative;
+
+            &--image {
+                position: relative;
+                bottom: 3rem;
+                left: 6rem;
+                max-width: 80%;
+            }
+        }
+    }
+}
+
+// Main screen
+.main {
+    background-color: $color-primary;
+
+    &__reignite {
+        display: flex;
+        align-items: center;
+        padding-top: 3rem;
+        margin-left: 15rem;
+
+        &--image {
+            max-width: 20%;
+        }
+
+        &--text {
+            margin-left: 3rem;
+            margin-right: 20rem;
+        }
+
+        &--text1 {
+            font-size: 1.2rem;
+            font-weight: bolder;
+            color: $color-secondary;
+            margin-bottom: 1rem;
+        }
+
+        &--text2 {
+            color: $color-secondary;
+            font-size: .9rem;
+            line-height: 1.875rem;
+        }
+    }
+
+    &__dotted {
+        margin-left: 22rem;
+        margin-top: -2rem;
+
+        &--line {
+            max-width: 50%;
+        }
+    }
+
+    &__spend {
+        display: flex;
+        position: relative;
+        // margin-left: 20rem;
+
+        &--image {
+            position: relative;
+            bottom: 2rem;
+            right: 18.8rem;
+            max-width: 15%;
+            // margin-right: 10rem;
+        }
+
+        &--text {
+            position: relative;
+            top: 1rem;
+            left: 25rem;
+            margin-right: 45rem;
+        }
+
+        &--text1 {
+            font-size: 1.2rem;
+            font-weight: bolder;
+            color: $color-secondary;
+            margin-bottom: 1rem;
+        }
+
+        &--text2 {
+            color: $color-secondary;
+            font-size: .9rem;
+            line-height: 1.875rem;
+        }
+    }
+
+    &__dot {
+        position: relative;
+        margin-left: 20rem;
+        bottom: 2rem;
+
+        &--image {
+            max-width: 60%;
+        }
+    }
+
+    &__motivate {
+        position: relative;
+        display: flex;
+        // left: 13rem;
+        // margin-left: 10rem;
+
+        &--text {
+            position: relative;
+            left: 16rem;
+            // margin-left: 1rem;
+            bottom: 4rem;
+        }
+
+        &--text1 {
+            font-size: 1.2rem;
+            font-weight: bolder;
+            color: $color-secondary;
+            margin-bottom: 1rem;
+        }
+
+        &--text2 {
+            position: relative;
+            color: $color-secondary;
+            font-size: .9rem;
+            font-weight: 400;
+            line-height: 1.875rem;
+            padding-right: 35rem;
+        }
+
+        &--image {
+            max-width: 17%;
+            position: relative;
+            left: 13rem;
+            bottom: 4rem;
+        }
+    }
+}
+
+.phone {
+
+    &__image {
+        max-width: 100%;
+    }
+}
+
+.blog {
+
+    &__heading {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    &__border {
+        max-width: 7.5%;
+        margin-left: 36.4rem;
+        margin-bottom: -.3rem;
+    }
+}
+
+.image {
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 4rem;
+
+    &__blog {
+        margin-left: 1.2rem;
+
+        &--image {
+            max-width: 100%;
+        }
+
+        &:last-child {
+            margin-right: 4rem;
+        }
+    }
+
+}
+
+.testimonial {
+    margin-top: 6rem;
+    margin-bottom: -5rem;
+
+    &__heading {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    &__text {
+        margin-top: .7rem;
+        text-align: center;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 600;
+    }
+
+    &__image {
+        margin-top: .5rem;
+        margin-left: 34rem;
+    }
+
+    &__content {
+
+        &--footopen {
+            max-width: 100%;
+            margin-left: 21rem;
+        }
+
+        &--testimony {
+            margin-left: 25rem;
+            margin-right: 25rem;
+            line-height: 1.8;
+            // text-align: center;
+        }
+
+        &--footclose {
+            margin-top: -5rem;
+            margin-left: 55rem;
+        }
+
+        &--name {
+            margin-left: 25rem;
+            margin-top: 1rem;
+            line-height: 2.5;
+        }
+    }
+}
+
+
+.hand {
+    position: relative;
+    margin-bottom: -13rem;
+
+    &__up {
+        position: relative;
+        top: 8.8rem;
+        left: 59rem;
+        z-index: 1;
+        max-width: 50%;
+    }
+
+    &__down {
+        position: relative;
+        top: 21.9rem;
+        z-index: 1;
+        left: 41rem;
+        max-width: 50%;
+    }
+}
+
+
+.box {
+    background-color: $color-primary;
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 2rem;
+    height: 23rem;
+    position: relative;
+    top: 11.5rem;
+
+    &__image {
+        margin-top: 4rem;
+        margin-left: 10rem;
+
+        &--image {
+            max-width: 65%;
+        }
+    }
+
+    &__content {
+        margin-top: 4rem;
+        margin-right: 7rem;
+
+        &--heading {
+            color: $color-secondary;
+            font-size: 1.7rem;
+        }
+
+        &--text {
+            color: $color-secondary;
+            margin-top: 2rem;
+            line-height: 2;
+        }
+
+        &--button {
+            display: flex;
+            margin-right: 2rem;
+            margin-top: 3rem;
+
+            &--image {
+                max-width: 60%;
+            }
+        }
+
+        &--link:last-child {
+            margin-left: -5rem;
+        }
+    }
+}
+
+
+
+.footer {
+    background-color: $color-footer;
+    display: flex;
+    padding-bottom: 5rem;
+
+    &__logo {
+        margin-top: 15rem;
+        margin-bottom: 7rem;
+        margin-left: 8rem;
+
+        &--logo {
+            max-width: 50%;
+            margin-bottom: 2rem;
+        }
+
+        &--copyright {
+            color: $color-secondary;
+            opacity: 0.5;
+            line-height: 3;
+        }
+
+        &--terms {
+            color: $color-secondary;
+            opacity: 0.5;
+            // font-style: .8rem;
+        }
+    }
+
+    &__company {
+        margin-top: 16.5rem;
+        margin-left: 3rem;
+
+        &--company {
+            color: $color-secondary;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+
+        &--link {
+            text-decoration: none;
+        }
+
+        &--text {
+            color: $color-secondary;
+            opacity: 0.5;
+            margin-bottom: 2rem;
+        }
+
+    }
+
+    &__intouch {
+        margin-top: 16.5rem;
+        margin-left: 10rem;
+
+        &--heading {
+            color: $color-secondary;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+
+        &--enquiry {
+            color: $color-secondary;
+            opacity: 0.5;
+            margin-bottom: 2rem;
+        }
+
+        &--email {
+            color: $color-secondary;
+            margin-bottom: 2rem;
+        }
+
+        &--socials {
+
+            & > a {
+                text-decoration: none;
+            }
+
+            &-image {
+                max-width: 15%;
+            }
+
+            &-twitter {
+                margin-left: 1rem;
+            }
+
+            &-instagram {
+                margin-left: 1rem;
+            }
+        }
+    }
+}

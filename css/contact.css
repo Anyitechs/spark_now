@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  /* This defines what 1rem should be */ }
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  box-sizing: border-box; }
+
+.home {
+  background-color: #CBF7F0; }
+  .home .navigation {
+    display: flex; }
+    .home .navigation__logo {
+      max-width: 20%;
+      margin-left: 3rem; }
+    .home .navigation__list {
+      margin-top: 3.5rem;
+      margin-left: 23rem;
+      display: flex;
+      justify-content: space-between; }
+    .home .navigation__item {
+      list-style: none; }
+    .home .navigation__link:link, .home .navigation__link:visited {
+      text-decoration: none;
+      padding-left: 2rem;
+      color: #F5444F; }
+  .home .banner {
+    margin-left: 5rem;
+    margin-top: 5rem; }
+    .home .banner__content {
+      padding-bottom: 5rem; }
+      .home .banner__content--image {
+        display: flex; }
+        .home .banner__content--image-contact {
+          color: #F5444F;
+          font-size: 1.0625rem;
+          text-transform: uppercase;
+          margin-left: 1rem;
+          margin-top: .7rem; }
+      .home .banner__content--heading {
+        color: #F5444F;
+        margin-top: 1.5rem;
+        font-size: 2.5rem; }
+      .home .banner__content--text {
+        margin-top: 1.5rem;
+        line-height: 1.5;
+        color: #F5444F;
+        font-size: 1.0625rem; }
+
+.contact {
+  position: relative;
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: -14rem;
+  margin-left: 5rem; }
+  .contact__details__first {
+    display: flex; }
+    .contact__details__first--phone-heading {
+      line-height: 3;
+      font-size: 1.5rem; }
+    .contact__details__first--phone-text span {
+      margin-left: .7rem; }
+    .contact__details__first--email {
+      margin-left: 3rem; }
+      .contact__details__first--email-heading {
+        line-height: 3;
+        font-size: 1.5rem; }
+  .contact__details__second {
+    margin-top: 3rem; }
+    .contact__details__second--heading {
+      line-height: 3;
+      font-size: 1.5rem; }
+    .contact__details__second--text {
+      line-height: 3; }
+  .contact__form {
+    position: relative;
+    bottom: 19rem;
+    left: 2rem;
+    margin-left: 8rem;
+    width: 32rem;
+    background: #FFFFFF;
+    box-shadow: 0px 2.6807px 32.1684px rgba(50, 0, 153, 0.05);
+    border-radius: 16px; }
+    .contact__form > label {
+      display: block;
+      margin-left: 3.2rem; }
+    .contact__form > textarea {
+      border: 1px solid #313131;
+      filter: drop-shadow(0px 2.6807px 32.1684px rgba(50, 0, 153, 0.05));
+      border-radius: 8px;
+      margin-left: 3.2rem; }
+    .contact__form--text {
+      color: #333333;
+      margin-left: 3.2rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem; }
+    .contact__form--input {
+      width: 80%;
+      padding: 1rem;
+      border: 1px solid #313131;
+      filter: drop-shadow(0px 2.6807px 32.1684px rgba(50, 0, 153, 0.05));
+      border-radius: 8px;
+      margin-bottom: 1.2rem;
+      margin-left: 3.2rem; }
+    .contact__form--submit {
+      background-color: #F5444F;
+      color: #ffffff;
+      padding: 10px;
+      width: 25.3rem;
+      height: 3rem;
+      margin-top: 3rem;
+      margin-left: 3.2rem;
+      margin-bottom: 5rem;
+      border: none;
+      border-radius: 8px; }
+
+.couple {
+  display: flex;
+  margin-left: 5rem; }
+  .couple__content {
+    margin-top: 8rem; }
+    .couple__content--amazing {
+      text-transform: uppercase;
+      color: #F5444F; }
+    .couple__content--heading {
+      color: #F5444F;
+      font-size: 3rem;
+      margin-top: 1.5rem;
+      line-height: 1.2; }
+    .couple__content--description {
+      margin-top: 1.5rem; }
+  .couple__vector {
+    position: relative;
+    left: 8rem; }
+    .couple__vector--image {
+      max-width: 100%; }
+
+.hand {
+  position: relative;
+  margin-bottom: -13rem; }
+  .hand__up {
+    position: relative;
+    top: 1.3rem;
+    left: 59rem;
+    z-index: 1;
+    max-width: 50%; }
+  .hand__down {
+    position: relative;
+    top: 14.5rem;
+    z-index: 1;
+    left: 41rem;
+    max-width: 50%; }
+
+.box {
+  background-color: #F5444F;
+  display: flex;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 2rem;
+  height: 23rem;
+  position: relative;
+  top: 4rem; }
+  .box__image {
+    margin-top: 4rem;
+    margin-left: 10rem; }
+    .box__image--image {
+      max-width: 65%; }
+  .box__content {
+    margin-top: 4rem;
+    margin-right: 7rem; }
+    .box__content--heading {
+      color: #ffffff;
+      font-size: 1.7rem; }
+    .box__content--text {
+      color: #ffffff;
+      margin-top: 2rem;
+      line-height: 2; }
+    .box__content--button {
+      display: flex;
+      margin-right: 2rem;
+      margin-top: 3rem; }
+      .box__content--button--image {
+        max-width: 60%; }
+    .box__content--link:last-child {
+      margin-left: -5rem; }
+
+.footer {
+  margin-top: -7.5rem;
+  background-color: #1B1B1B;
+  display: flex; }
+  .footer__logo {
+    margin-top: 15rem;
+    margin-bottom: 7rem;
+    margin-left: 8rem; }
+    .footer__logo--logo {
+      max-width: 50%;
+      margin-bottom: 2rem; }
+    .footer__logo--copyright {
+      color: #ffffff;
+      opacity: 0.5;
+      line-height: 3; }
+    .footer__logo--terms {
+      color: #ffffff;
+      opacity: 0.5; }
+  .footer__company {
+    margin-top: 16.5rem;
+    margin-left: 3rem; }
+    .footer__company--company {
+      color: #ffffff;
+      text-transform: uppercase;
+      margin-bottom: 2rem; }
+    .footer__company--link {
+      text-decoration: none; }
+    .footer__company--text {
+      color: #ffffff;
+      opacity: 0.5;
+      margin-bottom: 2rem; }
+  .footer__intouch {
+    margin-top: 16.5rem;
+    margin-left: 10rem; }
+    .footer__intouch--heading {
+      color: #ffffff;
+      text-transform: uppercase;
+      margin-bottom: 2rem; }
+    .footer__intouch--enquiry {
+      color: #ffffff;
+      opacity: 0.5;
+      margin-bottom: 2rem; }
+    .footer__intouch--email {
+      color: #ffffff;
+      margin-bottom: 2rem; }
+    .footer__intouch--socials > a {
+      text-decoration: none; }
+    .footer__intouch--socials-image {
+      max-width: 15%; }
+    .footer__intouch--socials-twitter {
+      margin-left: 1rem; }
+    .footer__intouch--socials-instagram {
+      margin-left: 1rem; }
