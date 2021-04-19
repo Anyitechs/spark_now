@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    /* This defines what 1rem should be */
+    // font-size: 62.5%;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+    // font-weight: 400;
+    // line-height: 1.7;
+    // color: gray;
+    // padding: 3rem;
+    box-sizing: border-box;
+}
+
+
+$color-primary: #F5444F;
+$color-secondary: #ffffff;
+$color-tertiary: #CBF7F0;
+$color-footer: #1B1B1B;
+
+
+.home {
+    background-image: url("../images/back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .navigation {
+        display: flex;
+
+        &__logo {
+            margin-top: 1.2rem;
+            // max-width: 20%;
+            margin-left: 4rem;
+        }
+
+        &__list {
+            margin-top: 3.5rem;
+            margin-left: 23rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__item {
+            list-style: none;
+        }
+
+        &__link {
+            &:link,
+            &:visited {
+                text-decoration: none;
+                padding-left: 2rem;
+                color: $color-primary;
+            }
+        }
+    }
+
+    .banner {
+        display: flex;
+
+        &__content {
+            margin-top: 8rem;
+            margin-left: 8rem;
+
+            &--heading {
+                margin-top: 1rem;
+                font-size: 3rem;
+                font-weight: 700;
+                color: $color-primary;
+            }
+
+            &--text {
+                margin-top: 2rem;
+                font-size: 1.3rem;
+            }
+
+            &--buttons {
+                margin-top: 4rem;
+
+                &-link {
+                    text-decoration: none;
+                }
+
+                &-image {
+                    max-width: 45%;
+                }
+
+                &-image:last-child {
+                    padding-right: 1.3rem;
+                }
+            }
+        }
+
+        &__logo {
+            position: relative;
+            right: 1.8rem;
+            margin-top: 5rem;
+            margin-right: 8rem;
+
+            &--logo {
+                max-width: 90%;
+                padding-bottom: 9rem;
+            }
+        }
+    }
+}
+
+
+.policy {
+    margin-top: 3rem;
+    margin-left: 8rem;
+    margin-bottom: 6rem;
+
+    &__heading {
+        font-size: 3.5rem;
+    }
+
+    &__description {
+        margin-top: 2rem;
+        margin-right: 8rem;
+
+        &--text {
+            line-height: 1.7rem;
+
+            span {
+                color: $color-primary;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+.footer {
+    // margin-top: -7.5rem;
+    background-color: $color-footer;
+    display: flex;
+
+    &__logo {
+        margin-top: 15rem;
+        margin-bottom: 7rem;
+        margin-left: 8rem;
+
+        &--logo {
+            max-width: 50%;
+            margin-bottom: 2rem;
+        }
+
+        &--copyright {
+            color: $color-secondary;
+            opacity: 0.5;
+            line-height: 3;
+        }
+
+        &--terms {
+            color: $color-secondary;
+            opacity: 0.5;
+            // font-style: .8rem;
+        }
+    }
+
+    &__company {
+        margin-top: 16.5rem;
+        margin-left: 3rem;
+
+        &--company {
+            color: $color-secondary;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+
+        &--link {
+            text-decoration: none;
+        }
+
+        &--text {
+            color: $color-secondary;
+            opacity: 0.5;
+            margin-bottom: 2rem;
+        }
+
+    }
+
+    &__intouch {
+        margin-top: 16.5rem;
+        margin-left: 10rem;
+
+        &--heading {
+            color: $color-secondary;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+
+        &--enquiry {
+            color: $color-secondary;
+            opacity: 0.5;
+            margin-bottom: 2rem;
+        }
+
+        &--email {
+            color: $color-secondary;
+            margin-bottom: 2rem;
+        }
+
+        &--socials {
+
+            & > a {
+                text-decoration: none;
+            }
+
+            &-image {
+                max-width: 15%;
+            }
+
+            &-twitter {
+                margin-left: 1rem;
+            }
+
+            &-instagram {
+                margin-left: 1rem;
+            }
+        }
+    }
+}

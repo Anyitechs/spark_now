@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w",
-    "compile:contact": "node-sass sass/contact.scss css/contact.css -w"
+    "compile:contact": "node-sass sass/contact.scss css/contact.css -w",
+    "compile:challenge": "node-sass sass/challenge.scss css/challenge.css -w",
+    "compile:policy": "node-sass sass/policy.scss css/policy.css -w",
+    "compile:about": "node-sass sass/about.scss css/about.css -w"
   },
   "author": "Ifeanyichukwu Amajuoyi",
   "license": "ISC",
