@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 *,
 *::after,
@@ -183,6 +185,7 @@ $color-footer: #1B1B1B;
         &--image {
             margin-left: 6rem;
             margin-top: 8rem;
+            padding-bottom: 6rem;
         }
 
         &--content {
@@ -209,4 +212,209 @@ $color-footer: #1B1B1B;
         }
     }
 
+    &__team {
+        margin-top: 8rem;
+
+        &--heading {
+            font-family: 'Libre Baskerville', serif;
+            text-align: center;
+            line-height: 2;
+        }
+
+        &--text {
+            text-align: center;
+        }
+
+        hr {
+           border: 1.4px solid $color-primary;
+           width: 3.3rem;
+           text-align: center;
+           position: relative;
+           left: 36rem;
+           top: -2rem;
+        }
+
+        &--team {
+            display: flex;
+            margin-top: 2rem;
+
+            &-div {
+                margin-right: 2rem;
+                position: relative;
+
+                &-image {
+                    max-width: 100%;
+                }
+
+                &-share {
+                    cursor: pointer;
+                    position: absolute;
+                    bottom: 4rem;
+                    right: 1rem;
+                }
+
+                div {
+                    margin-top: 2rem;
+
+                   h4 {
+                        font-family: 'Libre Baskerville', serif;
+                        line-height: 2;
+                    }
+
+                    p {
+                        font-family: 'Source Sans Pro', sans-serif;
+                    }
+                }
+            }
+        }
+    }
+
+    &__testimonial {
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+        
+            &--heading {
+                text-align: center;
+                font-size: 2rem;
+                font-weight: 700;
+                font-style: normal;
+            }
+        
+            &--text {
+                margin-top: .7rem;
+                text-align: center;
+                font-family: 'Nunito Sans', sans-serif;
+                font-weight: 600;
+            }
+        
+            &--image {
+                margin-top: .5rem;
+                margin-left: 32rem;
+            }
+        
+            &--content {
+        
+                &-footopen {
+                    max-width: 100%;
+                    margin-left: 21rem;
+                }
+        
+                &-testimony {
+                    margin-left: 25rem;
+                    margin-right: 25rem;
+                    line-height: 1.8;
+                    // text-align: center;
+                }
+        
+                &-footclose {
+                    margin-top: -5rem;
+                    margin-left: 55rem;
+                }
+        
+                &-name {
+                    margin-left: 25rem;
+                    margin-top: 1rem;
+                    line-height: 2.5;
+                }
+            }
+        // }
+    }
+    
 }
+
+.footer {
+    position: relative;
+    bottom: -51rem;
+    margin: 0 !important;
+    background-color: $color-footer;
+    display: flex;
+
+    &__logo {
+        margin-top: 5rem;
+        margin-bottom: 7rem;
+        margin-left: 8rem;
+
+        &--logo {
+            max-width: 50%;
+            margin-bottom: 2rem;
+        }
+
+        &--copyright {
+            color: $color-secondary;
+            opacity: 0.5;
+            line-height: 3;
+        }
+
+        &--terms {
+            color: $color-secondary;
+            opacity: 0.5;
+            // font-style: .8rem;
+        }
+    }
+
+    &__company {
+        margin-top: 6.5rem;
+        margin-left: 3rem;
+
+        &--company {
+            color: $color-secondary;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+
+        &--link {
+            text-decoration: none;
+        }
+
+        &--text {
+            color: $color-secondary;
+            opacity: 0.5;
+            margin-bottom: 2rem;
+        }
+
+    }
+
+    &__intouch {
+        margin-top: 6.5rem;
+        margin-left: 10rem;
+
+        &--heading {
+            color: $color-secondary;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+
+        &--enquiry {
+            color: $color-secondary;
+            opacity: 0.5;
+            margin-bottom: 2rem;
+        }
+
+        &--email {
+            color: $color-secondary;
+            margin-bottom: 2rem;
+        }
+
+        &--socials {
+
+            & > a {
+                text-decoration: none;
+            }
+
+            &-image {
+                max-width: 15%;
+            }
+
+            &-twitter {
+                margin-left: 1rem;
+            }
+
+            &-instagram {
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+
+
+

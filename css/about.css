@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 *,
 *::after,
 *::before {
@@ -110,7 +112,8 @@ body {
     display: flex; }
     .unique__couple--image {
       margin-left: 6rem;
-      margin-top: 8rem; }
+      margin-top: 8rem;
+      padding-bottom: 6rem; }
     .unique__couple--content {
       margin-top: 8rem;
       margin-left: 7rem; }
@@ -126,3 +129,124 @@ body {
       .unique__couple--content-image {
         margin-top: 2rem;
         cursor: pointer; }
+  .unique__team {
+    margin-top: 8rem; }
+    .unique__team--heading {
+      font-family: 'Libre Baskerville', serif;
+      text-align: center;
+      line-height: 2; }
+    .unique__team--text {
+      text-align: center; }
+    .unique__team hr {
+      border: 1.4px solid #F5444F;
+      width: 3.3rem;
+      text-align: center;
+      position: relative;
+      left: 36rem;
+      top: -2rem; }
+    .unique__team--team {
+      display: flex;
+      margin-top: 2rem; }
+      .unique__team--team-div {
+        margin-right: 2rem;
+        position: relative; }
+        .unique__team--team-div-image {
+          max-width: 100%; }
+        .unique__team--team-div-share {
+          cursor: pointer;
+          position: absolute;
+          bottom: 4rem;
+          right: 1rem; }
+        .unique__team--team-div div {
+          margin-top: 2rem; }
+          .unique__team--team-div div h4 {
+            font-family: 'Libre Baskerville', serif;
+            line-height: 2; }
+          .unique__team--team-div div p {
+            font-family: 'Source Sans Pro', sans-serif; }
+  .unique__testimonial {
+    margin-top: 6rem;
+    margin-bottom: 2rem; }
+    .unique__testimonial--heading {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 700;
+      font-style: normal; }
+    .unique__testimonial--text {
+      margin-top: .7rem;
+      text-align: center;
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight: 600; }
+    .unique__testimonial--image {
+      margin-top: .5rem;
+      margin-left: 32rem; }
+    .unique__testimonial--content-footopen {
+      max-width: 100%;
+      margin-left: 21rem; }
+    .unique__testimonial--content-testimony {
+      margin-left: 25rem;
+      margin-right: 25rem;
+      line-height: 1.8; }
+    .unique__testimonial--content-footclose {
+      margin-top: -5rem;
+      margin-left: 55rem; }
+    .unique__testimonial--content-name {
+      margin-left: 25rem;
+      margin-top: 1rem;
+      line-height: 2.5; }
+
+.footer {
+  position: relative;
+  bottom: -51rem;
+  margin: 0 !important;
+  background-color: #1B1B1B;
+  display: flex; }
+  .footer__logo {
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+    margin-left: 8rem; }
+    .footer__logo--logo {
+      max-width: 50%;
+      margin-bottom: 2rem; }
+    .footer__logo--copyright {
+      color: #ffffff;
+      opacity: 0.5;
+      line-height: 3; }
+    .footer__logo--terms {
+      color: #ffffff;
+      opacity: 0.5; }
+  .footer__company {
+    margin-top: 6.5rem;
+    margin-left: 3rem; }
+    .footer__company--company {
+      color: #ffffff;
+      text-transform: uppercase;
+      margin-bottom: 2rem; }
+    .footer__company--link {
+      text-decoration: none; }
+    .footer__company--text {
+      color: #ffffff;
+      opacity: 0.5;
+      margin-bottom: 2rem; }
+  .footer__intouch {
+    margin-top: 6.5rem;
+    margin-left: 10rem; }
+    .footer__intouch--heading {
+      color: #ffffff;
+      text-transform: uppercase;
+      margin-bottom: 2rem; }
+    .footer__intouch--enquiry {
+      color: #ffffff;
+      opacity: 0.5;
+      margin-bottom: 2rem; }
+    .footer__intouch--email {
+      color: #ffffff;
+      margin-bottom: 2rem; }
+    .footer__intouch--socials > a {
+      text-decoration: none; }
+    .footer__intouch--socials-image {
+      max-width: 15%; }
+    .footer__intouch--socials-twitter {
+      margin-left: 1rem; }
+    .footer__intouch--socials-instagram {
+      margin-left: 1rem; }

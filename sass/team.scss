@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    /* This defines what 1rem should be */
+    // font-size: 62.5%;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+    // font-weight: 400;
+    // line-height: 1.7;
+    // color: gray;
+    // padding: 3rem;
+    box-sizing: border-box;
+}
+
+
+$color-primary: #F5444F;
+$color-secondary: #ffffff;
+$color-tertiary: #CBF7F0;
+$color-footer: #1B1B1B;
+
+
+
+.home {
+
+    .navigation {
+        display: flex;
+        position: relative;
+
+        &__image {
+            max-width: 100%;
+            position: absolute;
+            left: 29.6rem;
+            z-index: -1;
+        }
+    
+
+        &__logo {
+            margin-top: 1.2rem;
+            // max-width: 20%;
+            margin-left: 4rem;
+        }
+
+        &__list {
+            margin-top: 3.5rem;
+            margin-left: 27.9rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__item {
+            list-style: none;
+        }
+
+        &__link {
+            &:link,
+            &:visited {
+                text-decoration: none;
+                padding-left: 2rem;
+                color: $color-primary;
+            }
+        }
+    }
+
+    .banner {
+        margin-top: 2rem;
+
+        &__image {
+            position: relative;
+            max-width: 100%;
+        }
+
+        &__button {
+            cursor: pointer;
+            position: absolute;
+            right: 33.7rem;
+            bottom: 4rem;
+        }
+    }
+}
+
+.team {
+
+
+    &__member {
+        display: flex;
+        margin-left: 5rem;
+
+        &--content {
+            margin-left: 4rem;
+            margin-top: 6.5rem;
+            margin-right: 2rem;
+
+
+            &-meet {
+                font-family: 'Source Sans Pro', sans-serif;
+                color: $color-primary;
+                text-transform: uppercase;
+            }
+
+            &-name {
+                font-family: 'Libre Baskerville', serif;
+                color: #1E1E1E;
+                font-weight: 400;
+                margin-top: 1.5rem;
+            }
+
+            &-bio {
+                font-family: 'Source Sans Pro', sans-serif;
+                color: #1E1E1E;
+                line-height: 1.8;
+                margin-top: 2rem;
+            }
+
+            &-button {
+                margin-top: 1.2rem;
+                cursor: pointer;
+            }
+        }
+    }
+
+
+    &__member {
+        display: flex;
+        margin-left: 5rem;
+
+
+        
+        &--terry {
+            margin-top: 6.5rem;
+
+
+            &-meet {
+                font-family: 'Source Sans Pro', sans-serif;
+                color: $color-primary;
+                text-transform: uppercase;
+            }
+
+            &-name {
+                font-family: 'Libre Baskerville', serif;
+                color: #1E1E1E;
+                font-weight: 400;
+                margin-top: 1.5rem;
+            }
+
+            &-bio {
+                font-family: 'Source Sans Pro', sans-serif;
+                color: #1E1E1E;
+                line-height: 1.8;
+                margin-top: 2rem;
+            }
+
+            &-button {
+                margin-top: 1.2rem;
+                cursor: pointer;
+            }
+
+            &-image {
+                width: 50%;
+                margin-right: 3rem;
+                margin-left: 5rem;
+            }
+
+        }
+
+    }
+
+}
