@@ -55,8 +55,11 @@ body {
 .team__member {
   display: flex;
   margin-left: 5rem; }
+  .team__member--image {
+    max-width: 50%;
+    padding-right: 4rem; }
   .team__member--content {
-    margin-left: 4rem;
+    margin-left: 1rem;
     margin-top: 6.5rem;
     margin-right: 2rem; }
     .team__member--content-meet {
@@ -81,7 +84,7 @@ body {
   display: flex;
   margin-left: 5rem; }
   .team__member--terry {
-    margin-top: 6.5rem; }
+    margin-top: 9rem; }
     .team__member--terry-meet {
       font-family: 'Source Sans Pro', sans-serif;
       color: #F5444F;
@@ -100,6 +103,120 @@ body {
       margin-top: 1.2rem;
       cursor: pointer; }
     .team__member--terry-image {
+      margin-top: 3rem;
       width: 50%;
       margin-right: 3rem;
-      margin-left: 5rem; }
+      padding-left: 4rem; }
+
+.team__mission {
+  margin-top: 5rem; }
+  .team__mission--image {
+    max-width: 100%;
+    position: relative; }
+  .team__mission--content {
+    position: relative;
+    top: -20rem; }
+    .team__mission--content-text {
+      margin-top: -1rem;
+      text-align: center;
+      line-height: 2;
+      font-size: 1.5rem;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 700;
+      color: #F5444F;
+      text-transform: uppercase; }
+    .team__mission--content-description {
+      margin-top: 1rem;
+      color: #ffffff;
+      text-align: center;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 400; }
+
+.team__alcy {
+  display: flex;
+  margin-left: 5rem;
+  margin-top: -6rem; }
+  .team__alcy--image {
+    max-width: 50%;
+    padding-right: 3rem; }
+  .team__alcy--content {
+    margin-left: 1rem;
+    margin-top: 6.5rem;
+    margin-right: 2rem; }
+    .team__alcy--content-meet {
+      font-family: 'Source Sans Pro', sans-serif;
+      color: #F5444F;
+      text-transform: uppercase; }
+    .team__alcy--content-name {
+      font-family: 'Libre Baskerville', serif;
+      color: #1E1E1E;
+      font-weight: 400;
+      margin-top: 1.5rem; }
+    .team__alcy--content-bio {
+      font-family: 'Source Sans Pro', sans-serif;
+      color: #1E1E1E;
+      line-height: 1.8;
+      margin-top: 2rem; }
+    .team__alcy--content-button {
+      margin-top: 1.2rem;
+      cursor: pointer; }
+
+.team__member {
+  display: flex;
+  margin-left: 5rem; }
+  .team__member--erin {
+    margin-top: 11rem; }
+    .team__member--erin-meet {
+      font-family: 'Source Sans Pro', sans-serif;
+      color: #F5444F;
+      text-transform: uppercase; }
+    .team__member--erin-name {
+      font-family: 'Libre Baskerville', serif;
+      color: #1E1E1E;
+      font-weight: 400;
+      margin-top: 1.5rem; }
+    .team__member--erin-bio {
+      font-family: 'Source Sans Pro', sans-serif;
+      color: #1E1E1E;
+      line-height: 1.8;
+      margin-top: 2rem; }
+      .team__member--erin-bio span {
+        font-style: italic; }
+    .team__member--erin-button {
+      margin-top: 1.2rem;
+      cursor: pointer; }
+    .team__member--erin-image {
+      margin-top: 6rem;
+      width: 50%;
+      margin-right: 3rem;
+      padding-left: 4rem; }
+
+.team__deborah {
+  display: flex;
+  margin-left: 5rem;
+  margin-top: 6rem; }
+  .team__deborah--image {
+    max-width: 50%;
+    padding-right: 3rem; }
+  .team__deborah--content {
+    margin-left: 1rem;
+    margin-top: 6.5rem;
+    margin-right: 2rem; }
+    .team__deborah--content-meet {
+      font-family: 'Source Sans Pro', sans-serif;
+      color: #F5444F;
+      text-transform: uppercase; }
+    .team__deborah--content-name {
+      font-family: 'Libre Baskerville', serif;
+      color: #1E1E1E;
+      font-weight: 400;
+      margin-top: 1.5rem; }
+    .team__deborah--content-bio {
+      font-family: 'Source Sans Pro', sans-serif;
+      color: #1E1E1E;
+      line-height: 1.8;
+      margin-top: 2rem; }
+    .team__deborah--content-button {
+      margin-top: 1.2rem;
+      cursor: pointer; }
