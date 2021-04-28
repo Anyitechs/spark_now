@@ -117,7 +117,7 @@ $color-footer: #1B1B1B;
 .policy {
     margin-top: 3rem;
     margin-left: 8rem;
-    margin-bottom: 6rem;
+    // margin-bottom: 6rem;
 
     &__heading {
         font-size: 3.5rem;
@@ -139,13 +139,16 @@ $color-footer: #1B1B1B;
 }
 
 
+
 .footer {
-    // margin-top: -7.5rem;
+    position: relative;
+    bottom: -5rem;
+    margin: 0 !important;
     background-color: $color-footer;
     display: flex;
 
     &__logo {
-        margin-top: 15rem;
+        margin-top: 5rem;
         margin-bottom: 7rem;
         margin-left: 8rem;
 
@@ -168,7 +171,7 @@ $color-footer: #1B1B1B;
     }
 
     &__company {
-        margin-top: 16.5rem;
+        margin-top: 6.5rem;
         margin-left: 3rem;
 
         &--company {
@@ -190,7 +193,7 @@ $color-footer: #1B1B1B;
     }
 
     &__intouch {
-        margin-top: 16.5rem;
+        margin-top: 6.5rem;
         margin-left: 10rem;
 
         &--heading {
