@@ -47,7 +47,7 @@ body {
   .banner__form {
     margin-top: 3rem;
     margin-left: 10rem;
-    margin-bottom: 6rem;
+    margin-bottom: -2rem;
     position: relative; }
     .banner__form--text {
       position: relative;
@@ -90,10 +90,13 @@ body {
       color: #ffffff; }
 
 .footer {
+  position: relative;
+  bottom: -5rem;
+  margin: 0 !important;
   background-color: #1B1B1B;
   display: flex; }
   .footer__logo {
-    margin-top: 15rem;
+    margin-top: 5rem;
     margin-bottom: 7rem;
     margin-left: 8rem; }
     .footer__logo--logo {
@@ -107,7 +110,7 @@ body {
       color: #ffffff;
       opacity: 0.5; }
   .footer__company {
-    margin-top: 16.5rem;
+    margin-top: 6.5rem;
     margin-left: 3rem; }
     .footer__company--company {
       color: #ffffff;
@@ -120,7 +123,7 @@ body {
       opacity: 0.5;
       margin-bottom: 2rem; }
   .footer__intouch {
-    margin-top: 16.5rem;
+    margin-top: 6.5rem;
     margin-left: 10rem; }
     .footer__intouch--heading {
       color: #ffffff;
