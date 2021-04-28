@@ -48,7 +48,7 @@ $color-footer: #1B1B1B;
     
 
         &__logo {
-            margin-top: 1.2rem;
+            margin-top: .5rem;
             // max-width: 20%;
             margin-left: 4rem;
         }
@@ -322,15 +322,16 @@ $color-footer: #1B1B1B;
         margin-top: 6rem;
 
         &--image {
-            max-width: 50%;
-            padding-right: 3rem;
+            width: 50%;
+            // max-width: ;
+            padding-right: 4.5rem;
         }
 
 
         &--content {
-            margin-left: 1rem;
+            // margin-left: 1rem;
             margin-top: 6.5rem;
-            margin-right: 2rem;
+            margin-right: 5rem;
 
 
             &-meet {
@@ -360,4 +361,186 @@ $color-footer: #1B1B1B;
         }
     }
 
+    &__philosophy {
+        margin-top: 4rem;
+        margin-bottom: -75rem;
+
+        &--image {
+            position: relative;
+            max-width: 100%;
+        }
+
+        &--content {
+            position: relative;
+            bottom: 23rem;
+            margin-left: 26rem;
+
+            &-heading {
+                margin-left: -1rem;
+                color: $color-secondary;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 1.3rem;
+                font-weight: 700;
+                line-height: 3;
+            }
+
+            &-list {
+
+                &--item {
+                    color: $color-secondary;
+                    font-size: 1.1rem;
+                    font-family: 'Source Sans Pro', sans-serif;
+                }
+            }
+        }
+
+
+    }
+
+}
+
+.box {
+    background-color: $color-primary;
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 2rem;
+    height: 23rem;
+    position: relative;
+    z-index: 1;
+    top: 60rem;
+
+    &__image {
+        margin-top: 4rem;
+        margin-left: 10rem;
+
+        &--image {
+            max-width: 65%;
+        }
+    }
+
+    &__content {
+        margin-top: 4rem;
+        margin-right: 7rem;
+
+        &--heading {
+            color: $color-secondary;
+            font-size: 1.7rem;
+        }
+
+        &--text {
+            color: $color-secondary;
+            margin-top: 2rem;
+            line-height: 2;
+        }
+
+        &--button {
+            display: flex;
+            margin-right: 2rem;
+            margin-top: 3rem;
+
+            &--image {
+                max-width: 60%;
+            }
+        }
+
+        &--link:last-child {
+            margin-left: -5rem;
+        }
+    }
+}
+
+
+.footer {
+    position: relative;
+    bottom: -48rem;
+    margin: 0 !important;
+    background-color: $color-footer;
+    display: flex;
+
+    &__logo {
+        margin-top: 13rem;
+        margin-bottom: 7rem;
+        margin-left: 8rem;
+
+        &--logo {
+            max-width: 50%;
+            margin-bottom: 2rem;
+        }
+
+        &--copyright {
+            color: $color-secondary;
+            opacity: 0.5;
+            line-height: 3;
+        }
+
+        &--terms {
+            color: $color-secondary;
+            opacity: 0.5;
+            // font-style: .8rem;
+        }
+    }
+
+    &__company {
+        margin-top: 15rem;
+        margin-left: 3rem;
+
+        &--company {
+            color: $color-secondary;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+
+        &--link {
+            text-decoration: none;
+        }
+
+        &--text {
+            color: $color-secondary;
+            opacity: 0.5;
+            margin-bottom: 2rem;
+        }
+
+    }
+
+    &__intouch {
+        margin-top: 15rem;
+        margin-left: 10rem;
+
+        &--heading {
+            color: $color-secondary;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+
+        &--enquiry {
+            color: $color-secondary;
+            opacity: 0.5;
+            margin-bottom: 2rem;
+        }
+
+        &--email {
+            color: $color-secondary;
+            margin-bottom: 2rem;
+        }
+
+        &--socials {
+
+            & > a {
+                text-decoration: none;
+            }
+
+            &-image {
+                max-width: 15%;
+            }
+
+            &-twitter {
+                margin-left: 1rem;
+            }
+
+            &-instagram {
+                margin-left: 1rem;
+            }
+        }
+    }
 }

@@ -27,7 +27,7 @@ body {
     left: 29.6rem;
     z-index: -1; }
   .home .navigation__logo {
-    margin-top: 1.2rem;
+    margin-top: .5rem;
     margin-left: 4rem; }
   .home .navigation__list {
     margin-top: 3.5rem;
@@ -197,12 +197,11 @@ body {
   margin-left: 5rem;
   margin-top: 6rem; }
   .team__deborah--image {
-    max-width: 50%;
-    padding-right: 3rem; }
+    width: 50%;
+    padding-right: 4.5rem; }
   .team__deborah--content {
-    margin-left: 1rem;
     margin-top: 6.5rem;
-    margin-right: 2rem; }
+    margin-right: 5rem; }
     .team__deborah--content-meet {
       font-family: 'Source Sans Pro', sans-serif;
       color: #F5444F;
@@ -220,3 +219,115 @@ body {
     .team__deborah--content-button {
       margin-top: 1.2rem;
       cursor: pointer; }
+
+.team__philosophy {
+  margin-top: 4rem;
+  margin-bottom: -75rem; }
+  .team__philosophy--image {
+    position: relative;
+    max-width: 100%; }
+  .team__philosophy--content {
+    position: relative;
+    bottom: 23rem;
+    margin-left: 26rem; }
+    .team__philosophy--content-heading {
+      margin-left: -1rem;
+      color: #ffffff;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 700;
+      line-height: 3; }
+    .team__philosophy--content-list--item {
+      color: #ffffff;
+      font-size: 1.1rem;
+      font-family: 'Source Sans Pro', sans-serif; }
+
+.box {
+  background-color: #F5444F;
+  display: flex;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 2rem;
+  height: 23rem;
+  position: relative;
+  z-index: 1;
+  top: 60rem; }
+  .box__image {
+    margin-top: 4rem;
+    margin-left: 10rem; }
+    .box__image--image {
+      max-width: 65%; }
+  .box__content {
+    margin-top: 4rem;
+    margin-right: 7rem; }
+    .box__content--heading {
+      color: #ffffff;
+      font-size: 1.7rem; }
+    .box__content--text {
+      color: #ffffff;
+      margin-top: 2rem;
+      line-height: 2; }
+    .box__content--button {
+      display: flex;
+      margin-right: 2rem;
+      margin-top: 3rem; }
+      .box__content--button--image {
+        max-width: 60%; }
+    .box__content--link:last-child {
+      margin-left: -5rem; }
+
+.footer {
+  position: relative;
+  bottom: -48rem;
+  margin: 0 !important;
+  background-color: #1B1B1B;
+  display: flex; }
+  .footer__logo {
+    margin-top: 13rem;
+    margin-bottom: 7rem;
+    margin-left: 8rem; }
+    .footer__logo--logo {
+      max-width: 50%;
+      margin-bottom: 2rem; }
+    .footer__logo--copyright {
+      color: #ffffff;
+      opacity: 0.5;
+      line-height: 3; }
+    .footer__logo--terms {
+      color: #ffffff;
+      opacity: 0.5; }
+  .footer__company {
+    margin-top: 15rem;
+    margin-left: 3rem; }
+    .footer__company--company {
+      color: #ffffff;
+      text-transform: uppercase;
+      margin-bottom: 2rem; }
+    .footer__company--link {
+      text-decoration: none; }
+    .footer__company--text {
+      color: #ffffff;
+      opacity: 0.5;
+      margin-bottom: 2rem; }
+  .footer__intouch {
+    margin-top: 15rem;
+    margin-left: 10rem; }
+    .footer__intouch--heading {
+      color: #ffffff;
+      text-transform: uppercase;
+      margin-bottom: 2rem; }
+    .footer__intouch--enquiry {
+      color: #ffffff;
+      opacity: 0.5;
+      margin-bottom: 2rem; }
+    .footer__intouch--email {
+      color: #ffffff;
+      margin-bottom: 2rem; }
+    .footer__intouch--socials > a {
+      text-decoration: none; }
+    .footer__intouch--socials-image {
+      max-width: 15%; }
+    .footer__intouch--socials-twitter {
+      margin-left: 1rem; }
+    .footer__intouch--socials-instagram {
+      margin-left: 1rem; }
