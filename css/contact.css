@@ -19,11 +19,11 @@ body {
   .home .navigation {
     display: flex; }
     .home .navigation__logo {
-      max-width: 20%;
+      max-width: 50%;
       margin-left: 3rem; }
     .home .navigation__list {
       margin-top: 3.5rem;
-      margin-left: 23rem;
+      margin-left: 12rem;
       display: flex;
       justify-content: space-between; }
     .home .navigation__item {
@@ -82,7 +82,7 @@ body {
       line-height: 3; }
   .contact__form {
     position: relative;
-    bottom: 19rem;
+    bottom: 23rem;
     left: 2rem;
     margin-left: 8rem;
     width: 32rem;

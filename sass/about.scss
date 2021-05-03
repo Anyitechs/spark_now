@@ -61,6 +61,11 @@ $color-footer: #1B1B1B;
 
         &__item {
             list-style: none;
+
+            // &:last-child > a {
+            //     border-bottom: 3px solid $color-primary;
+            //     width: 10rem;
+            // }
         }
 
         &__link {
@@ -237,13 +242,22 @@ $color-footer: #1B1B1B;
         &--team {
             display: flex;
             margin-top: 2rem;
+            // overflow: hidden;
+
+            &-next {
+                cursor: pointer;
+            }
 
             &-div {
                 margin-right: 2rem;
                 position: relative;
 
                 &-image {
-                    max-width: 100%;
+                    width: 350px;
+                }
+
+                &:nth-child(3) {
+                    margin-right: rem;
                 }
 
                 &-share {

@@ -19,11 +19,13 @@ body {
   .home .navigation {
     display: flex; }
     .home .navigation__logo {
-      max-width: 20%;
+      max-width: 50%;
       margin-left: 3rem; }
+      .home .navigation__logo--link {
+        text-decoration: none; }
     .home .navigation__list {
       margin-top: 3.5rem;
-      margin-left: 23rem;
+      margin-left: 12rem;
       display: flex;
       justify-content: space-between; }
     .home .navigation__item {
@@ -46,7 +48,7 @@ body {
       margin-top: 1.5rem; }
   .banner__form {
     margin-top: 3rem;
-    margin-left: 10rem;
+    margin-left: 11rem;
     margin-bottom: -2rem;
     position: relative; }
     .banner__form--text {

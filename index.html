@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+
     <title>Spark Now</title>
 </head>
 <body>
@@ -49,9 +50,25 @@
                         </div>
                     </div>
                     <div class="banner__slide">
-                        <img src="images/slide1.png" alt="" class="banner__slide--image">
+                        <div class="banner__slides">
+                            <img src="images/slide1.png" alt="Spark Now" class="banner__slide--image">
+                        </div>
+                        <div class="banner__slides">
+                            <img src="images/slides2.png" alt="Spark Now" class="banner__slide--image">
+                        </div>
+                        <div class="banner__slides">
+                            <img src="images/slides3.png" alt="Spark Now" class="banner__slide--image">
+                        </div>
+
+                        <a href="#" class="prev" title="Previous">&#10094</a>
+                        <a href="#" class="next" title="Next">&#10095</a>
                     </div>
                 </div>
+                <!-- <div class="dots-container">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div> -->
             </div>
         </div>
         <main>
@@ -142,10 +159,10 @@
                 </div>
             </div>
 
-            <div class="hand">
+            <!-- <div class="hand">
                 <img src="images/hand_up.png" alt="Spark Now" class="hand__up">
                 <img src="images/hand_down.png" alt="Spark Now" class="hand__down">
-            </div>
+            </div> -->
 
             <div class="box">
                 <div class="box__image">
@@ -230,5 +247,46 @@
             </div>
         </footer>
     </div>
+    <script type="text/javascript">
+        var currentSlide = 0;
+        var slides = document.querySelectorAll(".banner__slides");
+        const dots = document.querySelectorAll(".dot");
+        
+        function init(n) {
+            slides.forEach((slide) => {
+                slide.style.display = "none"
+                // dots.forEach((dot) => {
+                //     dot.classList.remove("active")
+                // })
+            })
+            slides[n].style.display = "block"
+            // dots[n].classList.add("active")
+        }
+        document.addEventListener("DOMContentLoaded", init(currentSlide))
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener("click", () => {
+                init(index)
+                currentSlide = index
+            })
+        })
+
+        function next() {
+            currentSlide >= slides.length - 1 ? currentSlide = 0 : currentSlide++;
+            init(currentSlide)
+        }
+
+        function prev() {
+            currentSlide <= 0 ? currentSlide = slides.length - 1 : currentSlide--;
+            init(currentSlide)
+        }
+        document.querySelector(".next").addEventListener("click", next);
+        document.querySelector(".prev").addEventListener("click", prev);
+
+        setInterval(() => {
+            next()
+        }, 2000);
+    </script>
+
 </body>
 </html>

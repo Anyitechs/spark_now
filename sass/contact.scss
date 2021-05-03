@@ -34,13 +34,13 @@ $color-footer: #1B1B1B;
         display: flex;
 
         &__logo {
-            max-width: 20%;
+            max-width: 50%;
             margin-left: 3rem;
         }
 
         &__list {
             margin-top: 3.5rem;
-            margin-left: 23rem;
+            margin-left: 12rem;
             display: flex;
             justify-content: space-between;
         }
@@ -148,7 +148,7 @@ $color-footer: #1B1B1B;
 
     &__form {
         position: relative;
-        bottom: 19rem;
+        bottom: 23rem;
         left: 2rem;
         margin-left: 8rem;
         width: 32rem;

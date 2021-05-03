@@ -147,11 +147,15 @@ body {
     .unique__team--team {
       display: flex;
       margin-top: 2rem; }
+      .unique__team--team-next {
+        cursor: pointer; }
       .unique__team--team-div {
         margin-right: 2rem;
         position: relative; }
         .unique__team--team-div-image {
-          max-width: 100%; }
+          width: 350px; }
+        .unique__team--team-div:nth-child(3) {
+          margin-right: rem; }
         .unique__team--team-div-share {
           cursor: pointer;
           position: absolute;

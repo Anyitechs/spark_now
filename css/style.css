@@ -38,9 +38,47 @@ body {
       text-decoration: none;
       padding-left: 2rem;
       color: #ffffff; }
+  .home .dots-container {
+    margin-right: -33rem;
+    margin-top: -3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; }
+  .home .dots-container .dot {
+    cursor: pointer;
+    margin: 5px;
+    width: 5px;
+    height: 5px;
+    color: #333;
+    border-radius: 50%;
+    background-color: #dfd6ce; }
+  .home .dots-container .dot.active {
+    border: 2px solid green; }
   .home .banner {
     display: flex;
     margin-top: 5rem; }
+    .home .banner__slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative; }
+      .home .banner__slide .prev, .home .banner__slide .next {
+        cursor: pointer;
+        position: absolute;
+        top: 100%;
+        width: auto;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        transition: all 0.6s ease;
+        user-select: none; }
+    .home .banner__slides {
+      display: none;
+      width: 100%; }
+      .home .banner__slides img {
+        width: 100%; }
     .home .banner__content {
       margin-left: 5rem; }
       .home .banner__content--image {
