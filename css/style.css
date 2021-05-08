@@ -349,7 +349,7 @@ body {
       flex-direction: column; }
       .home .navigation .icon {
         color: #ffffff;
-        position: fixed;
+        position: absolute;
         display: block;
         left: 21rem;
         top: 2rem; }
@@ -425,7 +425,7 @@ body {
           display: none; }
       .home .banner__button {
         position: relative;
-        bottom: -28rem;
+        bottom: -30rem;
         display: flex;
         flex-direction: column;
         justify-content: center;

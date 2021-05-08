@@ -26,6 +26,7 @@ $color-primary: #F5444F;
 $color-secondary: #ffffff;
 $color-footer: #1B1B1B;
 
+/* Desktop and Laptop View */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
 
@@ -558,6 +559,8 @@ $color-footer: #1B1B1B;
     }
 }
 
+
+/* Mobile View */
 @media (min-width: 320px) and (max-width: 667px) {
     .home {
         background-color: $color-primary;
@@ -576,7 +579,7 @@ $color-footer: #1B1B1B;
 
             .icon {
                 color: $color-secondary;
-                position: fixed;
+                position: absolute;
                 display: block;
                 left: 21rem;
                 top: 2rem;
@@ -701,7 +704,7 @@ $color-footer: #1B1B1B;
 
             &__button {
                 position: relative;
-                bottom: -28rem;
+                bottom: -30rem;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Spark Now</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
                     <img src="images/logo.png" alt="Spark Now Logo" class="navigation__logo">
                 </a>
                 <nav class="navigation__nav">
-                    <ul class="navigation__list">
+                    <ul class="navigation__list" id="nav">
                         <li class="navigation__item">
                             <a href="challenge.html" class="navigation__link">5 Day love challenge</a>
                         </li>
@@ -29,6 +30,10 @@
                             <a href="about.html" class="navigation__link">About Us</a>
                         </li>
                     </ul>
+
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                      </a>
                 </nav>
             </div>
             <div class="banner">
@@ -205,5 +210,17 @@
             </div>
         </footer>
     </div>
+
+    <script type="text/javascript">
+
+        function myFunction() {
+            var x = document.getElementById("nav");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 </body>
 </html>
