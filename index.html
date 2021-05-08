@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Spark Now</title>
 </head>
@@ -15,7 +16,7 @@
                     <img src="images/logo.png" alt="Spark Now Logo" class="navigation__logo">
     
                     <nav class="navigation__nav">
-                        <ul class="navigation__list">
+                        <ul class="navigation__list" id="nav">
                             <li class="navigation__item">
                                 <a href="challenge.html" class="navigation__link">5 Day love challenge</a>
                             </li>
@@ -28,7 +29,15 @@
                             <li class="navigation__item">
                                 <a href="about.html" class="navigation__link">About Us</a>
                             </li>
+                            <!-- <li class="navigation__item">
+                                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                    <i class="fa fa-bars"></i>
+                                  </a>
+                            </li> -->
                         </ul>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                          </a>
                     </nav>
                 </div>
     
@@ -60,8 +69,8 @@
                             <img src="images/slides3.png" alt="Spark Now" class="banner__slide--image">
                         </div>
 
-                        <a href="#" class="prev" title="Previous">&#10094</a>
-                        <a href="#" class="next" title="Next">&#10095</a>
+                        <a href="#" class="prev" title="Previous"></a>
+                        <a href="#" class="next" title="Next"></a>
                     </div>
                 </div>
                 <!-- <div class="dots-container">
@@ -155,7 +164,7 @@
                         which is a great app to have with a busy schedule or lifestyle! #SparkNow
                     </p>
                     <img src="images/close2.png" alt="" class="testimonial__content--footclose">
-                    <p class="testimonial__content--name">Kai <br> Banker</p>
+                    <p class="testimonial__content--name">Kai - Banker</p>
                 </div>
             </div>
 
@@ -286,6 +295,15 @@
         setInterval(() => {
             next()
         }, 2000);
+
+        function myFunction() {
+            var x = document.getElementById("nav");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
     </script>
 
 </body>
