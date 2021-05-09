@@ -14,7 +14,8 @@ body {
   font-family: 'PT Sans', sans-serif;
   box-sizing: border-box; }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+/* Desktop and Laptop View */
+@media (min-width: 768px) {
   .home {
     background-color: #F5444F;
     position: relative;
@@ -336,6 +337,7 @@ body {
       .footer__intouch--socials-instagram {
         margin-left: 1rem; } }
 
+/* Mobile View */
 @media (min-width: 320px) and (max-width: 667px) {
   .home {
     background-color: #F5444F;

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Spark Now</title>
 </head>
 <body>
@@ -17,7 +18,7 @@
                     <img src="images/logo_policy.png" alt="Spark Now Logo" class="navigation__logo">
                 </a>
                 <nav class="navigation__nav">
-                    <ul class="navigation__list">
+                    <ul class="navigation__list" id="nav">
                         <li class="navigation__item">
                             <a href="challenge.html" class="navigation__link">5 Day love challenge</a>
                         </li>
@@ -31,6 +32,10 @@
                             <a href="about.html" class="navigation__link">About Us</a>
                         </li>
                     </ul>
+
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                      </a>
                 </nav>
                 <img src="images/about part.png" alt="Spark Now" class="navigation__image">
                 <div class="navigation__content">
@@ -274,7 +279,11 @@
   crossorigin="anonymous"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript">
-        $(document).ready(function(){
+       const mediaQuery = window.matchMedia('(min-width: 768px)');
+
+       function handleTabChange(e) {
+           if (e.matches) {
+            $(document).ready(function(){
       $('.unique__team--team').slick({
           infinite: true,
           slidesToShow: 3,
@@ -285,6 +294,19 @@
           dots: true
       });
     });
+           }
+       }
+       mediaQuery.addListener(handleTabChange);
+       handleTabChange(mediaQuery);
+
+    function myFunction() {
+            var x = document.getElementById("nav");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+    }
     </script>
 
 

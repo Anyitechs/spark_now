@@ -32,399 +32,808 @@ $color-tertiary: #CBF7F0;
 $color-footer: #1B1B1B;
 
 
-.home {
+/* Desktop and Laptop View */
+@media (min-width: 1025px) and (max-width: 1280px) {
 
-    .navigation {
-        display: flex;
-        position: relative;
+    .home {
 
-        &__image {
-            max-width: 100%;
-            position: absolute;
-            left: 29.6rem;
-            z-index: -1;
-        }
-    
-
-        &__logo {
-            margin-top: 1.2rem;
-            // max-width: 20%;
-            margin-left: 4rem;
-        }
-
-        &__list {
-            margin-top: 3.5rem;
-            margin-left: 27.9rem;
+        .navigation {
             display: flex;
-            justify-content: space-between;
+            position: relative;
+
+            &__image {
+                max-width: 100%;
+                position: absolute;
+                left: 29.6rem;
+                z-index: -1;
+            }
+        
+
+            &__logo {
+                margin-top: 1.2rem;
+                // max-width: 20%;
+                margin-left: 4rem;
+            }
+
+            &__list {
+                margin-top: 3.5rem;
+                margin-left: 27.9rem;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            &__item {
+                list-style: none;
+
+                // &:last-child > a {
+                //     border-bottom: 3px solid $color-primary;
+                //     width: 10rem;
+                // }
+            }
+
+            &__link {
+                &:link,
+                &:visited {
+                    text-decoration: none;
+                    padding-left: 2rem;
+                    color: $color-primary;
+                }
+            }
+
+            &__content {
+                position: absolute;
+                top: 14rem;
+                left: 4rem;
+
+                &--heading {
+                    font-family: 'Manrope', sans-serif;
+                    font-size: 3.75rem;
+                }
+
+                &--description {
+                    margin-top: 2rem;
+                    line-height: 1.6;
+                }
+
+                &--button {
+                    margin-top: 2.5rem;
+                    border: none;
+                    border-radius: 0.5rem;
+                    padding: 1rem 6.5rem;
+                    color: $color-secondary;
+                    background-color: $color-primary;
+                }
+
+                &--image1 {
+                    position: relative;
+                    bottom: 4.5rem;
+                    right: 2.9rem;
+                    z-index: -1;
+                }
+
+                &--image2 {
+                    position: relative;
+                    right: 26.5rem;
+                    bottom: 3.3rem;
+                    z-index: -1;
+                }
+            }
         }
+    }
 
-        &__item {
-            list-style: none;
+    .unique {
+        position: relative;
+        top: 50rem;
+        margin-left: 4rem;
 
-            // &:last-child > a {
-            //     border-bottom: 3px solid $color-primary;
-            //     width: 10rem;
-            // }
-        }
+        &__heading {
+            font-size: 3rem;
 
-        &__link {
-            &:link,
-            &:visited {
-                text-decoration: none;
-                padding-left: 2rem;
+            span {
                 color: $color-primary;
             }
         }
 
-        &__content {
-            position: absolute;
-            top: 14rem;
-            left: 4rem;
-
-            &--heading {
-                font-family: 'Manrope', sans-serif;
-                font-size: 3.75rem;
-            }
-
-            &--description {
-                margin-top: 2rem;
-                line-height: 1.6;
-            }
-
-            &--button {
-                margin-top: 2.5rem;
-                border: none;
-                border-radius: 0.5rem;
-                padding: 1rem 6.5rem;
-                color: $color-secondary;
-                background-color: $color-primary;
-            }
-
-            &--image1 {
-                position: relative;
-                bottom: 4.5rem;
-                right: 2.9rem;
-                z-index: -1;
-            }
-
-            &--image2 {
-                position: relative;
-                right: 26.5rem;
-                bottom: 3.3rem;
-                z-index: -1;
-            }
-        }
-    }
-}
-
-.unique {
-    position: relative;
-    top: 50rem;
-    margin-left: 4rem;
-
-    &__heading {
-        font-size: 3rem;
-
-        span {
-            color: $color-primary;
-        }
-    }
-
-    &__description {
-        margin-top: 1.5rem;
-    }
-
-    hr {
-        margin-top: 3rem;
-        margin-right: 4rem;
-        background: rgba(196, 196, 196, 0.5);
-        // margin-bottom: 10rem;
-    }
-
-    &__box {
-        display: flex;
-        margin-top: 4rem;
-
-        & > div {
-            width: 18.625rem;
-            height: 16.1875rem;
-            background: #FFFFFF;
-            box-shadow: 0px 16px 24px rgba(50, 50, 71, 0.06), 0px 12px 12px rgba(50, 50, 71, 0.06);
-            border-radius: 10px;
-            margin-right: 1rem;
-        }
-
-        &--one {
-
-
-            &:last-child {
-                margin-right: 4rem;
-            }
-
-            &-image {
-                margin-left: 7rem;
-                margin-top: 2rem;
-                margin-bottom: 0.5rem;
-            }
-
-            &-heading {
-                text-align: center;
-            }
-
-            &-description {
-                text-align: center;
-                margin-top: 3rem;
-                color: #514949;
-                padding: 0 1rem;
-            }
-        }
-    }
-
-    &__couple {
-        background: rgba(245, 68, 79, 0.01);
-        background-size: cover;
-        margin-top: 4rem;
-        display: flex;
-
-        &--image {
-            margin-left: 6rem;
-            margin-top: 8rem;
-            padding-bottom: 6rem;
-        }
-
-        &--content {
-            margin-top: 8rem;
-            margin-left: 7rem;
-
-            &-heading {
-                font-family: 'Rubik', sans-serif;
-                font-size: 3rem;
-            }
-
-            &-description {
-                font-family: 'Rubik', sans-serif;
-                font-weight: 400;
-                color: #333333;
-                margin-top: 2rem;
-                line-height: 2;
-            }
-
-            &-image {
-                margin-top: 2rem;
-                cursor: pointer;
-            }
-        }
-    }
-
-    &__team {
-        margin-top: 8rem;
-
-        &--heading {
-            font-family: 'Libre Baskerville', serif;
-            text-align: center;
-            line-height: 2;
-        }
-
-        &--text {
-            text-align: center;
+        &__description {
+            margin-top: 1.5rem;
         }
 
         hr {
-           border: 1.4px solid $color-primary;
-           width: 3.3rem;
-           text-align: center;
-           position: relative;
-           left: 36rem;
-           top: -2rem;
+            margin-top: 3rem;
+            margin-right: 4rem;
+            background: rgba(196, 196, 196, 0.5);
+            // margin-bottom: 10rem;
         }
 
-        &--team {
+        &__box {
             display: flex;
-            margin-top: 2rem;
-            // overflow: hidden;
+            margin-top: 4rem;
 
-            &-next {
-                cursor: pointer;
+            & > div {
+                width: 18.625rem;
+                height: 16.1875rem;
+                background: #FFFFFF;
+                box-shadow: 0px 16px 24px rgba(50, 50, 71, 0.06), 0px 12px 12px rgba(50, 50, 71, 0.06);
+                border-radius: 10px;
+                margin-right: 1rem;
             }
 
-            &-div {
-                margin-right: 2rem;
-                position: relative;
+            &--one {
+
+
+                &:last-child {
+                    margin-right: 4rem;
+                }
 
                 &-image {
-                    width: 350px;
-                }
-
-                &:nth-child(3) {
-                    margin-right: rem;
-                }
-
-                &-share {
-                    cursor: pointer;
-                    position: absolute;
-                    bottom: 4rem;
-                    right: 1rem;
-                }
-
-                div {
+                    margin-left: 7rem;
                     margin-top: 2rem;
+                    margin-bottom: 0.5rem;
+                }
 
-                   h4 {
-                        font-family: 'Libre Baskerville', serif;
-                        line-height: 2;
-                    }
+                &-heading {
+                    text-align: center;
+                }
 
-                    p {
-                        font-family: 'Source Sans Pro', sans-serif;
-                    }
+                &-description {
+                    text-align: center;
+                    margin-top: 3rem;
+                    color: #514949;
+                    padding: 0 1rem;
                 }
             }
         }
-    }
 
-    &__testimonial {
-        margin-top: 6rem;
-        margin-bottom: 2rem;
-        
-            &--heading {
-                text-align: center;
-                font-size: 2rem;
-                font-weight: 700;
-                font-style: normal;
-            }
-        
-            &--text {
-                margin-top: .7rem;
-                text-align: center;
-                font-family: 'Nunito Sans', sans-serif;
-                font-weight: 600;
-            }
-        
+        &__couple {
+            background: rgba(245, 68, 79, 0.01);
+            background-size: cover;
+            margin-top: 4rem;
+            display: flex;
+
             &--image {
-                margin-top: .5rem;
-                margin-left: 32rem;
+                margin-left: 6rem;
+                margin-top: 8rem;
+                padding-bottom: 6rem;
             }
-        
+
             &--content {
-        
-                &-footopen {
-                    max-width: 100%;
-                    margin-left: 21rem;
+                margin-top: 8rem;
+                margin-left: 7rem;
+
+                &-heading {
+                    font-family: 'Rubik', sans-serif;
+                    font-size: 3rem;
                 }
-        
-                &-testimony {
-                    margin-left: 25rem;
-                    margin-right: 25rem;
-                    line-height: 1.8;
-                    // text-align: center;
+
+                &-description {
+                    font-family: 'Rubik', sans-serif;
+                    font-weight: 400;
+                    color: #333333;
+                    margin-top: 2rem;
+                    line-height: 2;
                 }
-        
-                &-footclose {
-                    margin-top: -5rem;
-                    margin-left: 55rem;
-                }
-        
-                &-name {
-                    margin-left: 25rem;
-                    margin-top: 1rem;
-                    line-height: 2.5;
+
+                &-image {
+                    margin-top: 2rem;
+                    cursor: pointer;
                 }
             }
-        // }
+        }
+
+        &__team {
+            margin-top: 8rem;
+
+            &--heading {
+                font-family: 'Libre Baskerville', serif;
+                text-align: center;
+                line-height: 2;
+            }
+
+            &--text {
+                text-align: center;
+            }
+
+            hr {
+            border: 1.4px solid $color-primary;
+            width: 3.3rem;
+            text-align: center;
+            position: relative;
+            left: 36rem;
+            top: -2rem;
+            }
+
+            &--team {
+                display: flex;
+                margin-top: 2rem;
+                // overflow: hidden;
+
+                &-next {
+                    cursor: pointer;
+                }
+
+                &-div {
+                    margin-right: 2rem;
+                    position: relative;
+
+                    &-image {
+                        width: 350px;
+                    }
+
+                    &:nth-child(3) {
+                        margin-right: rem;
+                    }
+
+                    &-share {
+                        cursor: pointer;
+                        position: absolute;
+                        bottom: 4rem;
+                        right: 1rem;
+                    }
+
+                    div {
+                        margin-top: 2rem;
+
+                    h4 {
+                            font-family: 'Libre Baskerville', serif;
+                            line-height: 2;
+                        }
+
+                        p {
+                            font-family: 'Source Sans Pro', sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+
+        &__testimonial {
+            margin-top: 6rem;
+            margin-bottom: 2rem;
+            
+                &--heading {
+                    text-align: center;
+                    font-size: 2rem;
+                    font-weight: 700;
+                    font-style: normal;
+                }
+            
+                &--text {
+                    margin-top: .7rem;
+                    text-align: center;
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-weight: 600;
+                }
+            
+                &--image {
+                    margin-top: .5rem;
+                    margin-left: 32rem;
+                }
+            
+                &--content {
+            
+                    &-footopen {
+                        max-width: 100%;
+                        margin-left: 21rem;
+                    }
+            
+                    &-testimony {
+                        margin-left: 25rem;
+                        margin-right: 25rem;
+                        line-height: 1.8;
+                        // text-align: center;
+                    }
+            
+                    &-footclose {
+                        margin-top: -5rem;
+                        margin-left: 55rem;
+                    }
+            
+                    &-name {
+                        margin-left: 25rem;
+                        margin-top: 1rem;
+                        line-height: 2.5;
+                    }
+                }
+            // }
+        }
+        
     }
-    
-}
 
-.footer {
-    position: relative;
-    bottom: -51rem;
-    margin: 0 !important;
-    background-color: $color-footer;
-    display: flex;
+    .footer {
+        position: relative;
+        bottom: -51rem;
+        margin: 0 !important;
+        background-color: $color-footer;
+        display: flex;
 
-    &__logo {
-        margin-top: 5rem;
-        margin-bottom: 7rem;
-        margin-left: 8rem;
+        &__logo {
+            margin-top: 5rem;
+            margin-bottom: 7rem;
+            margin-left: 8rem;
 
-        &--logo {
-            max-width: 50%;
-            margin-bottom: 2rem;
+            &--logo {
+                max-width: 50%;
+                margin-bottom: 2rem;
+            }
+
+            &--copyright {
+                color: $color-secondary;
+                opacity: 0.5;
+                line-height: 3;
+            }
+
+            &--terms {
+                color: $color-secondary;
+                opacity: 0.5;
+                // font-style: .8rem;
+            }
         }
 
-        &--copyright {
-            color: $color-secondary;
-            opacity: 0.5;
-            line-height: 3;
-        }
+        &__company {
+            margin-top: 6.5rem;
+            margin-left: 3rem;
 
-        &--terms {
-            color: $color-secondary;
-            opacity: 0.5;
-            // font-style: .8rem;
-        }
-    }
+            &--company {
+                color: $color-secondary;
+                text-transform: uppercase;
+                margin-bottom: 2rem;
+            }
 
-    &__company {
-        margin-top: 6.5rem;
-        margin-left: 3rem;
-
-        &--company {
-            color: $color-secondary;
-            text-transform: uppercase;
-            margin-bottom: 2rem;
-        }
-
-        &--link {
-            text-decoration: none;
-        }
-
-        &--text {
-            color: $color-secondary;
-            opacity: 0.5;
-            margin-bottom: 2rem;
-        }
-
-    }
-
-    &__intouch {
-        margin-top: 6.5rem;
-        margin-left: 10rem;
-
-        &--heading {
-            color: $color-secondary;
-            text-transform: uppercase;
-            margin-bottom: 2rem;
-        }
-
-        &--enquiry {
-            color: $color-secondary;
-            opacity: 0.5;
-            margin-bottom: 2rem;
-        }
-
-        &--email {
-            color: $color-secondary;
-            margin-bottom: 2rem;
-        }
-
-        &--socials {
-
-            & > a {
+            &--link {
                 text-decoration: none;
             }
 
-            &-image {
-                max-width: 15%;
+            &--text {
+                color: $color-secondary;
+                opacity: 0.5;
+                margin-bottom: 2rem;
             }
 
-            &-twitter {
+        }
+
+        &__intouch {
+            margin-top: 6.5rem;
+            margin-left: 10rem;
+
+            &--heading {
+                color: $color-secondary;
+                text-transform: uppercase;
+                margin-bottom: 2rem;
+            }
+
+            &--enquiry {
+                color: $color-secondary;
+                opacity: 0.5;
+                margin-bottom: 2rem;
+            }
+
+            &--email {
+                color: $color-secondary;
+                margin-bottom: 2rem;
+            }
+
+            &--socials {
+
+                & > a {
+                    text-decoration: none;
+                }
+
+                &-image {
+                    max-width: 15%;
+                }
+
+                &-twitter {
+                    margin-left: 1rem;
+                }
+
+                &-instagram {
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+}
+
+
+/* Mobile View */
+@media (min-width: 320px) and (max-width: 667px) {
+
+    .home {
+
+        .navigation {
+            display: flex;
+            flex-direction: column;
+
+            .icon {
+                color: $color-primary;
+                position: absolute;
+                display: block;
+                left: 21rem;
+                top: 2rem;
+            }
+        
+
+            &__logo {
+                max-width: 40%;
+                margin-top: .8rem;
                 margin-left: 1rem;
             }
 
-            &-instagram {
-                margin-left: 1rem;
+            &__list {
+                background-color: $color-primary;
+                display: none;
+            }
+
+            &__item {
+                list-style: none;
+                padding-top: 1rem;
+            }
+
+            &__item:last-child {
+                padding-bottom: 1rem;
+            }
+
+            &__link {
+                &:link,
+                &:visited {
+                    text-decoration: none;
+                    padding-left: 2rem;
+                    color: $color-secondary;
+                }
+            }
+
+            &__content {
+                position: absolute;
+                top: 14rem;
+                // left: 4rem;
+
+                &--heading {
+                    font-family: 'Manrope', sans-serif;
+                    font-size: 3.75rem;
+                }
+
+                &--description {
+                    margin-top: 2rem;
+                    line-height: 1.6;
+                }
+
+                &--button {
+                    margin-top: 2.5rem;
+                    border: none;
+                    border-radius: 0.5rem;
+                    padding: 1rem 6.5rem;
+                    color: $color-secondary;
+                    background-color: $color-primary;
+                }
+
+                &--image1 {
+                    position: relative;
+                    bottom: 4.5rem;
+                    right: 2.9rem;
+                    z-index: -1;
+                }
+
+                &--image2 {
+                    position: relative;
+                    right: 26.5rem;
+                    bottom: 3.3rem;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+
+    .unique {
+        position: relative;
+        top: 50rem;
+        // margin-left: 4rem;
+
+        &__heading {
+            font-size: 3rem;
+
+            span {
+                color: $color-primary;
+            }
+        }
+
+        &__description {
+            margin-top: 1.5rem;
+        }
+
+        hr {
+            margin-top: 3rem;
+            margin-right: 4rem;
+            background: rgba(196, 196, 196, 0.5);
+            // margin-bottom: 10rem;
+        }
+
+        &__box {
+            display: flex;
+            flex-direction: column;
+            margin-top: 4rem;
+
+            & > div {
+                width: 18.625rem;
+                height: 16.1875rem;
+                background: #FFFFFF;
+                box-shadow: 0px 16px 24px rgba(50, 50, 71, 0.06), 0px 12px 12px rgba(50, 50, 71, 0.06);
+                border-radius: 10px;
+                margin-right: 1rem;
+            }
+
+            &--one {
+
+
+                &:last-child {
+                    // margin-right: 4rem;
+                }
+
+                &-image {
+                    margin-left: 7rem;
+                    margin-top: 2rem;
+                    margin-bottom: 0.5rem;
+                }
+
+                &-heading {
+                    text-align: center;
+                }
+
+                &-description {
+                    text-align: center;
+                    margin-top: 3rem;
+                    color: #514949;
+                    padding: 0 1rem;
+                }
+            }
+        }
+
+        &__couple {
+            background: rgba(245, 68, 79, 0.01);
+            background-size: cover;
+            margin-top: 4rem;
+            display: flex;
+            flex-direction: column;
+
+            &--image {
+                margin-left: 6rem;
+                margin-top: 8rem;
+                padding-bottom: 6rem;
+            }
+
+            &--content {
+                margin-top: 8rem;
+                margin-left: 7rem;
+
+                &-heading {
+                    font-family: 'Rubik', sans-serif;
+                    font-size: 3rem;
+                }
+
+                &-description {
+                    font-family: 'Rubik', sans-serif;
+                    font-weight: 400;
+                    color: #333333;
+                    margin-top: 2rem;
+                    line-height: 2;
+                }
+
+                &-image {
+                    margin-top: 2rem;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &__team {
+            margin-top: 8rem;
+
+            &--heading {
+                font-family: 'Libre Baskerville', serif;
+                text-align: center;
+                line-height: 2;
+            }
+
+            &--text {
+                text-align: center;
+            }
+
+            hr {
+            border: 1.4px solid $color-primary;
+            width: 3.3rem;
+            text-align: center;
+            position: relative;
+            left: 36rem;
+            top: -2rem;
+            }
+
+            &--team {
+                display: flex;
+                flex-direction: column;
+                margin-top: 2rem;
+                // overflow: hidden;
+
+                &-next {
+                    cursor: pointer;
+                }
+
+                &-div {
+                    margin-right: 2rem;
+                    position: relative;
+
+                    &-image {
+                        width: 350px;
+                    }
+
+                    &:nth-child(3) {
+                        margin-right: rem;
+                    }
+
+                    &-share {
+                        cursor: pointer;
+                        position: absolute;
+                        bottom: 4rem;
+                        right: 1rem;
+                    }
+
+                    div {
+                        margin-top: 2rem;
+
+                    h4 {
+                            font-family: 'Libre Baskerville', serif;
+                            line-height: 2;
+                        }
+
+                        p {
+                            font-family: 'Source Sans Pro', sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+
+        &__testimonial {
+            margin-top: 6rem;
+            margin-bottom: 2rem;
+            
+                &--heading {
+                    text-align: center;
+                    font-size: 2rem;
+                    font-weight: 700;
+                    font-style: normal;
+                }
+            
+                &--text {
+                    margin-top: .7rem;
+                    text-align: center;
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-weight: 600;
+                }
+            
+                &--image {
+                    margin-top: .5rem;
+                    margin-left: 32rem;
+                }
+            
+                &--content {
+            
+                    &-footopen {
+                        max-width: 100%;
+                        margin-left: 21rem;
+                    }
+            
+                    &-testimony {
+                        margin-left: 25rem;
+                        margin-right: 25rem;
+                        line-height: 1.8;
+                        // text-align: center;
+                    }
+            
+                    &-footclose {
+                        margin-top: -5rem;
+                        margin-left: 55rem;
+                    }
+            
+                    &-name {
+                        margin-left: 25rem;
+                        margin-top: 1rem;
+                        line-height: 2.5;
+                    }
+                }
+            // }
+        }
+        
+    }
+
+    .footer {
+        position: relative;
+        bottom: -51rem;
+        margin: 0 !important;
+        background-color: $color-footer;
+        display: flex;
+
+        &__logo {
+            margin-top: 5rem;
+            margin-bottom: 7rem;
+            margin-left: 8rem;
+
+            &--logo {
+                max-width: 50%;
+                margin-bottom: 2rem;
+            }
+
+            &--copyright {
+                color: $color-secondary;
+                opacity: 0.5;
+                line-height: 3;
+            }
+
+            &--terms {
+                color: $color-secondary;
+                opacity: 0.5;
+                // font-style: .8rem;
+            }
+        }
+
+        &__company {
+            margin-top: 6.5rem;
+            margin-left: 3rem;
+
+            &--company {
+                color: $color-secondary;
+                text-transform: uppercase;
+                margin-bottom: 2rem;
+            }
+
+            &--link {
+                text-decoration: none;
+            }
+
+            &--text {
+                color: $color-secondary;
+                opacity: 0.5;
+                margin-bottom: 2rem;
+            }
+
+        }
+
+        &__intouch {
+            margin-top: 6.5rem;
+            margin-left: 10rem;
+
+            &--heading {
+                color: $color-secondary;
+                text-transform: uppercase;
+                margin-bottom: 2rem;
+            }
+
+            &--enquiry {
+                color: $color-secondary;
+                opacity: 0.5;
+                margin-bottom: 2rem;
+            }
+
+            &--email {
+                color: $color-secondary;
+                margin-bottom: 2rem;
+            }
+
+            &--socials {
+
+                & > a {
+                    text-decoration: none;
+                }
+
+                &-image {
+                    max-width: 15%;
+                }
+
+                &-twitter {
+                    margin-left: 1rem;
+                }
+
+                &-instagram {
+                    margin-left: 1rem;
+                }
             }
         }
     }
