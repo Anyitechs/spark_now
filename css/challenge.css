@@ -15,11 +15,14 @@ body {
   box-sizing: border-box; }
 
 /* Desktop and Laptop View */
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 768px) {
   .home {
     background-color: #ffffff; }
     .home .navigation {
       display: flex; }
+      .home .navigation .icon {
+        color: #ffffff;
+        display: none; }
       .home .navigation__logo {
         max-width: 50%;
         margin-left: 3rem; }

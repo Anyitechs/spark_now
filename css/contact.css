@@ -14,11 +14,14 @@ body {
   font-family: 'PT Sans', sans-serif;
   box-sizing: border-box; }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 768px) {
   .home {
     background-color: #CBF7F0; }
     .home .navigation {
       display: flex; }
+      .home .navigation .icon {
+        color: #ffffff;
+        display: none; }
       .home .navigation__logo {
         max-width: 50%;
         margin-left: 3rem; }
