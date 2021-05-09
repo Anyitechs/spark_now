@@ -33,7 +33,7 @@ body {
         margin-left: 3rem; }
       .home .navigation__list {
         margin-top: 3.5rem;
-        margin-left: 23rem;
+        margin-left: 27rem;
         display: flex;
         justify-content: space-between; }
       .home .navigation__item {
@@ -100,7 +100,7 @@ body {
         .home .banner__button--image {
           max-width: 40%; }
       .home .banner__slide {
-        margin-right: 10rem;
+        margin-right: 5.5rem;
         position: relative; }
         .home .banner__slide--image {
           position: relative;
