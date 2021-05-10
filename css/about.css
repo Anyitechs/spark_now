@@ -289,8 +289,8 @@ body {
       display: none; }
     .home .navigation__content {
       margin: 0 auto;
-      position: absolute;
-      top: 10rem; }
+      position: relative;
+      top: 3rem; }
       .home .navigation__content--heading {
         text-align: center;
         font-family: 'Manrope', sans-serif;
@@ -322,7 +322,7 @@ body {
         z-index: -1; }
   .unique {
     position: relative;
-    top: 33rem; }
+    top: 3rem; }
     .unique__heading {
       text-align: center;
       padding: 0 1rem;
@@ -470,7 +470,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-bottom: 3rem;
-    margin-top: 37rem; }
+    margin-top: 10rem; }
     .footer__logo {
       text-align: center;
       margin-top: 3rem;
