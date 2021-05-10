@@ -18,316 +18,616 @@ body {
   font-family: 'PT Sans', sans-serif;
   box-sizing: border-box; }
 
-.home .navigation {
-  display: flex;
-  position: relative; }
-  .home .navigation__image {
-    max-width: 100%;
-    position: absolute;
-    left: 29.6rem;
-    z-index: -1; }
-  .home .navigation__logo {
-    margin-top: .5rem;
-    margin-left: 4rem; }
-  .home .navigation__list {
-    margin-top: 3.5rem;
-    margin-left: 27.9rem;
+/* Desktop and Laptop View */
+@media (min-width: 768px) {
+  .home .navigation {
     display: flex;
-    justify-content: space-between; }
-  .home .navigation__item {
-    list-style: none; }
-  .home .navigation__link:link, .home .navigation__link:visited {
-    text-decoration: none;
-    padding-left: 2rem;
-    color: #F5444F; }
-
-.home .banner {
-  margin-top: 2rem; }
-  .home .banner__image {
-    position: relative;
-    max-width: 100%; }
-  .home .banner__button {
-    cursor: pointer;
-    position: absolute;
-    right: 33.7rem;
-    bottom: 4rem; }
-
-.team__member {
-  display: flex;
-  margin-left: 5rem; }
-  .team__member--image {
-    max-width: 50%;
-    padding-right: 4rem; }
-  .team__member--content {
-    margin-left: 1rem;
-    margin-top: 6.5rem;
-    margin-right: 2rem; }
-    .team__member--content-meet {
-      font-family: 'Source Sans Pro', sans-serif;
-      color: #F5444F;
-      text-transform: uppercase; }
-    .team__member--content-name {
-      font-family: 'Libre Baskerville', serif;
-      color: #1E1E1E;
-      font-weight: 400;
-      margin-top: 1.5rem; }
-    .team__member--content-bio {
-      font-family: 'Source Sans Pro', sans-serif;
-      color: #1E1E1E;
-      line-height: 1.8;
-      margin-top: 2rem; }
-    .team__member--content-button {
-      margin-top: 1.2rem;
-      cursor: pointer; }
-
-.team__member {
-  display: flex;
-  margin-left: 5rem; }
-  .team__member--terry {
-    margin-top: 9rem; }
-    .team__member--terry-meet {
-      font-family: 'Source Sans Pro', sans-serif;
-      color: #F5444F;
-      text-transform: uppercase; }
-    .team__member--terry-name {
-      font-family: 'Libre Baskerville', serif;
-      color: #1E1E1E;
-      font-weight: 400;
-      margin-top: 1.5rem; }
-    .team__member--terry-bio {
-      font-family: 'Source Sans Pro', sans-serif;
-      color: #1E1E1E;
-      line-height: 1.8;
-      margin-top: 2rem; }
-    .team__member--terry-button {
-      margin-top: 1.2rem;
-      cursor: pointer; }
-    .team__member--terry-image {
-      margin-top: 3rem;
-      width: 50%;
-      margin-right: 3rem;
-      padding-left: 4rem; }
-
-.team__mission {
-  margin-top: 5rem; }
-  .team__mission--image {
-    max-width: 100%;
     position: relative; }
-  .team__mission--content {
-    position: relative;
-    top: -20rem; }
-    .team__mission--content-text {
-      margin-top: -1rem;
-      text-align: center;
-      line-height: 2;
-      font-size: 1.5rem;
-      font-family: 'Source Sans Pro', sans-serif;
-      font-weight: 700;
-      color: #F5444F;
-      text-transform: uppercase; }
-    .team__mission--content-description {
-      margin-top: 1rem;
+    .home .navigation .icon {
       color: #ffffff;
-      text-align: center;
-      font-family: 'Source Sans Pro', sans-serif;
-      font-size: 1.8rem;
-      font-weight: 400; }
-
-.team__alcy {
-  display: flex;
-  margin-left: 5rem;
-  margin-top: -6rem; }
-  .team__alcy--image {
-    max-width: 50%;
-    padding-right: 3rem; }
-  .team__alcy--content {
-    margin-left: 1rem;
-    margin-top: 6.5rem;
-    margin-right: 2rem; }
-    .team__alcy--content-meet {
-      font-family: 'Source Sans Pro', sans-serif;
-      color: #F5444F;
-      text-transform: uppercase; }
-    .team__alcy--content-name {
-      font-family: 'Libre Baskerville', serif;
-      color: #1E1E1E;
-      font-weight: 400;
-      margin-top: 1.5rem; }
-    .team__alcy--content-bio {
-      font-family: 'Source Sans Pro', sans-serif;
-      color: #1E1E1E;
-      line-height: 1.8;
-      margin-top: 2rem; }
-    .team__alcy--content-button {
-      margin-top: 1.2rem;
-      cursor: pointer; }
-
-.team__member {
-  display: flex;
-  margin-left: 5rem; }
-  .team__member--erin {
-    margin-top: 11rem; }
-    .team__member--erin-meet {
-      font-family: 'Source Sans Pro', sans-serif;
-      color: #F5444F;
-      text-transform: uppercase; }
-    .team__member--erin-name {
-      font-family: 'Libre Baskerville', serif;
-      color: #1E1E1E;
-      font-weight: 400;
-      margin-top: 1.5rem; }
-    .team__member--erin-bio {
-      font-family: 'Source Sans Pro', sans-serif;
-      color: #1E1E1E;
-      line-height: 1.8;
-      margin-top: 2rem; }
-      .team__member--erin-bio span {
-        font-style: italic; }
-    .team__member--erin-button {
-      margin-top: 1.2rem;
-      cursor: pointer; }
-    .team__member--erin-image {
-      margin-top: 6rem;
-      width: 50%;
-      margin-right: 3rem;
-      padding-left: 4rem; }
-
-.team__deborah {
-  display: flex;
-  margin-left: 5rem;
-  margin-top: 6rem; }
-  .team__deborah--image {
-    width: 50%;
-    padding-right: 4.5rem; }
-  .team__deborah--content {
-    margin-top: 6.5rem;
-    margin-right: 5rem; }
-    .team__deborah--content-meet {
-      font-family: 'Source Sans Pro', sans-serif;
-      color: #F5444F;
-      text-transform: uppercase; }
-    .team__deborah--content-name {
-      font-family: 'Libre Baskerville', serif;
-      color: #1E1E1E;
-      font-weight: 400;
-      margin-top: 1.5rem; }
-    .team__deborah--content-bio {
-      font-family: 'Source Sans Pro', sans-serif;
-      color: #1E1E1E;
-      line-height: 1.8;
-      margin-top: 2rem; }
-    .team__deborah--content-button {
-      margin-top: 1.2rem;
-      cursor: pointer; }
-
-.team__philosophy {
-  margin-top: 4rem;
-  margin-bottom: -75rem; }
-  .team__philosophy--image {
-    position: relative;
-    max-width: 100%; }
-  .team__philosophy--content {
-    position: relative;
-    bottom: 23rem;
-    margin-left: 26rem; }
-    .team__philosophy--content-heading {
-      margin-left: -1rem;
-      color: #ffffff;
-      font-family: 'Source Sans Pro', sans-serif;
-      font-size: 1.3rem;
-      font-weight: 700;
-      line-height: 3; }
-    .team__philosophy--content-list--item {
-      color: #ffffff;
-      font-size: 1.1rem;
-      font-family: 'Source Sans Pro', sans-serif; }
-
-.box {
-  background-color: #F5444F;
-  display: flex;
-  margin-left: 5rem;
-  margin-right: 5rem;
-  border-radius: 2rem;
-  height: 23rem;
-  position: relative;
-  z-index: 1;
-  top: 60rem; }
-  .box__image {
-    margin-top: 4rem;
-    margin-left: 10rem; }
-    .box__image--image {
-      max-width: 65%; }
-  .box__content {
-    margin-top: 4rem;
-    margin-right: 7rem; }
-    .box__content--heading {
-      color: #ffffff;
-      font-size: 1.7rem; }
-    .box__content--text {
-      color: #ffffff;
-      margin-top: 2rem;
-      line-height: 2; }
-    .box__content--button {
+      display: none; }
+    .home .navigation__image {
+      max-width: 100%;
+      position: absolute;
+      left: 29.6rem;
+      z-index: -1; }
+    .home .navigation__logo {
+      margin-top: .5rem;
+      margin-left: 4rem; }
+    .home .navigation__list {
+      margin-top: 3.5rem;
+      margin-left: 27.9rem;
       display: flex;
-      margin-right: 2rem;
-      margin-top: 3rem; }
-      .box__content--button--image {
-        max-width: 60%; }
-    .box__content--link:last-child {
-      margin-left: -5rem; }
-
-.footer {
-  position: relative;
-  bottom: -48rem;
-  margin: 0 !important;
-  background-color: #1B1B1B;
-  display: flex; }
-  .footer__logo {
-    margin-top: 13rem;
-    margin-bottom: 7rem;
-    margin-left: 8rem; }
-    .footer__logo--logo {
+      justify-content: space-between; }
+    .home .navigation__item {
+      list-style: none; }
+    .home .navigation__link:link, .home .navigation__link:visited {
+      text-decoration: none;
+      padding-left: 2rem;
+      color: #F5444F; }
+  .home .banner {
+    margin-top: 2rem; }
+    .home .banner__image {
+      position: relative;
+      max-width: 100%; }
+    .home .banner__button {
+      cursor: pointer;
+      position: absolute;
+      right: 33.7rem;
+      bottom: 4rem; }
+  .team__member {
+    display: flex;
+    margin-left: 5rem; }
+    .team__member--image {
       max-width: 50%;
-      margin-bottom: 2rem; }
-    .footer__logo--copyright {
-      color: #ffffff;
-      opacity: 0.5;
-      line-height: 3; }
-    .footer__logo--terms {
-      color: #ffffff;
-      opacity: 0.5; }
-  .footer__company {
-    margin-top: 15rem;
-    margin-left: 3rem; }
-    .footer__company--company {
-      color: #ffffff;
-      text-transform: uppercase;
-      margin-bottom: 2rem; }
-    .footer__company--link {
-      text-decoration: none; }
-    .footer__company--text {
-      color: #ffffff;
-      opacity: 0.5;
-      margin-bottom: 2rem; }
-  .footer__intouch {
-    margin-top: 15rem;
-    margin-left: 10rem; }
-    .footer__intouch--heading {
-      color: #ffffff;
-      text-transform: uppercase;
-      margin-bottom: 2rem; }
-    .footer__intouch--enquiry {
-      color: #ffffff;
-      opacity: 0.5;
-      margin-bottom: 2rem; }
-    .footer__intouch--email {
-      color: #ffffff;
-      margin-bottom: 2rem; }
-    .footer__intouch--socials > a {
-      text-decoration: none; }
-    .footer__intouch--socials-image {
-      max-width: 15%; }
-    .footer__intouch--socials-twitter {
+      padding-right: 4rem; }
+    .team__member--content {
+      margin-left: 1rem;
+      margin-top: 6.5rem;
+      margin-right: 2rem; }
+      .team__member--content-meet {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #F5444F;
+        text-transform: uppercase; }
+      .team__member--content-name {
+        font-family: 'Libre Baskerville', serif;
+        color: #1E1E1E;
+        font-weight: 400;
+        margin-top: 1.5rem; }
+      .team__member--content-bio {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #1E1E1E;
+        line-height: 1.8;
+        margin-top: 2rem; }
+      .team__member--content-button {
+        margin-top: 1.2rem;
+        cursor: pointer; }
+  .team__member {
+    display: flex;
+    margin-left: 5rem; }
+    .team__member--terry {
+      margin-top: 9rem; }
+      .team__member--terry-meet {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #F5444F;
+        text-transform: uppercase; }
+      .team__member--terry-name {
+        font-family: 'Libre Baskerville', serif;
+        color: #1E1E1E;
+        font-weight: 400;
+        margin-top: 1.5rem; }
+      .team__member--terry-bio {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #1E1E1E;
+        line-height: 1.8;
+        margin-top: 2rem; }
+      .team__member--terry-button {
+        margin-top: 1.2rem;
+        cursor: pointer; }
+      .team__member--terry-image {
+        margin-top: 3rem;
+        width: 50%;
+        margin-right: 3rem;
+        padding-left: 4rem; }
+  .team__mission {
+    margin-top: 5rem; }
+    .team__mission--image {
+      max-width: 100%;
+      position: relative; }
+    .team__mission--content {
+      position: relative;
+      top: -20rem; }
+      .team__mission--content-text {
+        margin-top: -1rem;
+        text-align: center;
+        line-height: 2;
+        font-size: 1.5rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        color: #F5444F;
+        text-transform: uppercase; }
+      .team__mission--content-description {
+        margin-top: 1rem;
+        color: #ffffff;
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.8rem;
+        font-weight: 400; }
+  .team__alcy {
+    display: flex;
+    margin-left: 5rem;
+    margin-top: -6rem; }
+    .team__alcy--image {
+      max-width: 50%;
+      padding-right: 3rem; }
+    .team__alcy--content {
+      margin-left: 1rem;
+      margin-top: 6.5rem;
+      margin-right: 2rem; }
+      .team__alcy--content-meet {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #F5444F;
+        text-transform: uppercase; }
+      .team__alcy--content-name {
+        font-family: 'Libre Baskerville', serif;
+        color: #1E1E1E;
+        font-weight: 400;
+        margin-top: 1.5rem; }
+      .team__alcy--content-bio {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #1E1E1E;
+        line-height: 1.8;
+        margin-top: 2rem; }
+      .team__alcy--content-button {
+        margin-top: 1.2rem;
+        cursor: pointer; }
+  .team__member {
+    display: flex;
+    margin-left: 5rem; }
+    .team__member--erin {
+      margin-top: 11rem; }
+      .team__member--erin-meet {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #F5444F;
+        text-transform: uppercase; }
+      .team__member--erin-name {
+        font-family: 'Libre Baskerville', serif;
+        color: #1E1E1E;
+        font-weight: 400;
+        margin-top: 1.5rem; }
+      .team__member--erin-bio {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #1E1E1E;
+        line-height: 1.8;
+        margin-top: 2rem; }
+        .team__member--erin-bio span {
+          font-style: italic; }
+      .team__member--erin-button {
+        margin-top: 1.2rem;
+        cursor: pointer; }
+      .team__member--erin-image {
+        margin-top: 6rem;
+        width: 50%;
+        margin-right: 3rem;
+        padding-left: 4rem; }
+  .team__deborah {
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 6rem; }
+    .team__deborah--image {
+      width: 50%;
+      padding-right: 4.5rem; }
+    .team__deborah--content {
+      margin-top: 6.5rem;
+      margin-right: 5rem; }
+      .team__deborah--content-meet {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #F5444F;
+        text-transform: uppercase; }
+      .team__deborah--content-name {
+        font-family: 'Libre Baskerville', serif;
+        color: #1E1E1E;
+        font-weight: 400;
+        margin-top: 1.5rem; }
+      .team__deborah--content-bio {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #1E1E1E;
+        line-height: 1.8;
+        margin-top: 2rem; }
+      .team__deborah--content-button {
+        margin-top: 1.2rem;
+        cursor: pointer; }
+  .team__philosophy {
+    margin-top: 4rem;
+    margin-bottom: -75rem; }
+    .team__philosophy--image {
+      position: relative;
+      max-width: 100%; }
+    .team__philosophy--content {
+      position: relative;
+      bottom: 23rem;
+      margin-left: 26rem; }
+      .team__philosophy--content-heading {
+        margin-left: -1rem;
+        color: #ffffff;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 700;
+        line-height: 3; }
+      .team__philosophy--content-list--item {
+        color: #ffffff;
+        font-size: 1.1rem;
+        font-family: 'Source Sans Pro', sans-serif; }
+  .box {
+    background-color: #F5444F;
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 2rem;
+    height: 23rem;
+    position: relative;
+    z-index: 1;
+    top: 60rem; }
+    .box__image {
+      margin-top: 4rem;
+      margin-left: 10rem; }
+      .box__image--image {
+        max-width: 65%; }
+    .box__content {
+      margin-top: 4rem;
+      margin-right: 7rem; }
+      .box__content--heading {
+        color: #ffffff;
+        font-size: 1.7rem; }
+      .box__content--text {
+        color: #ffffff;
+        margin-top: 2rem;
+        line-height: 2; }
+      .box__content--button {
+        display: flex;
+        margin-right: 2rem;
+        margin-top: 3rem; }
+        .box__content--button--image {
+          max-width: 60%; }
+      .box__content--link:last-child {
+        margin-left: -5rem; }
+  .footer {
+    position: relative;
+    bottom: -48rem;
+    margin: 0 !important;
+    background-color: #1B1B1B;
+    display: flex; }
+    .footer__logo {
+      margin-top: 13rem;
+      margin-bottom: 7rem;
+      margin-left: 8rem; }
+      .footer__logo--logo {
+        max-width: 50%;
+        margin-bottom: 2rem; }
+      .footer__logo--copyright {
+        color: #ffffff;
+        opacity: 0.5;
+        line-height: 3; }
+      .footer__logo--terms {
+        color: #ffffff;
+        opacity: 0.5; }
+    .footer__company {
+      margin-top: 15rem;
+      margin-left: 3rem; }
+      .footer__company--company {
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: 2rem; }
+      .footer__company--link {
+        text-decoration: none; }
+      .footer__company--text {
+        color: #ffffff;
+        opacity: 0.5;
+        margin-bottom: 2rem; }
+    .footer__intouch {
+      margin-top: 15rem;
+      margin-left: 10rem; }
+      .footer__intouch--heading {
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: 2rem; }
+      .footer__intouch--enquiry {
+        color: #ffffff;
+        opacity: 0.5;
+        margin-bottom: 2rem; }
+      .footer__intouch--email {
+        color: #ffffff;
+        margin-bottom: 2rem; }
+      .footer__intouch--socials > a {
+        text-decoration: none; }
+      .footer__intouch--socials-image {
+        max-width: 15%; }
+      .footer__intouch--socials-twitter {
+        margin-left: 1rem; }
+      .footer__intouch--socials-instagram {
+        margin-left: 1rem; } }
+
+/* Mobile View */
+@media (min-width: 320px) and (max-width: 667px) {
+  .home .navigation {
+    display: flex;
+    flex-direction: column; }
+    .home .navigation .icon {
+      color: #F5444F;
+      position: absolute;
+      display: block;
+      left: 21rem;
+      top: 2rem; }
+    .home .navigation__logo {
+      max-width: 40%;
+      margin-top: .8rem;
       margin-left: 1rem; }
-    .footer__intouch--socials-instagram {
-      margin-left: 1rem; }
+    .home .navigation__list {
+      background-color: #F5444F;
+      display: none; }
+    .home .navigation__item {
+      list-style: none;
+      padding-top: 1rem; }
+    .home .navigation__item:last-child {
+      padding-bottom: 1rem; }
+    .home .navigation__link:link, .home .navigation__link:visited {
+      text-decoration: none;
+      padding-left: 2rem;
+      color: #ffffff; }
+  .home .banner {
+    margin-top: 2rem; }
+    .home .banner__image {
+      position: relative;
+      max-width: 100%; }
+    .home .banner__button {
+      max-width: 20%;
+      cursor: pointer;
+      position: relative;
+      top: -3rem;
+      right: -10rem; }
+  .team__member {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .team__member--image {
+      max-width: 100%; }
+    .team__member--content {
+      margin-top: 6.5rem; }
+      .team__member--content-meet {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #F5444F;
+        text-transform: uppercase; }
+      .team__member--content-name {
+        font-family: 'Libre Baskerville', serif;
+        color: #1E1E1E;
+        font-weight: 400;
+        margin-top: 1.5rem; }
+      .team__member--content-bio {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #1E1E1E;
+        line-height: 1.8;
+        margin-top: 2rem; }
+      .team__member--content-button {
+        margin-top: 1.2rem;
+        cursor: pointer; }
+  .team__member:not(:first-child) {
+    display: flex;
+    flex-direction: column-reverse; }
+    .team__member:not(:first-child)--terry {
+      margin-top: 9rem; }
+      .team__member:not(:first-child)--terry-meet {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #F5444F;
+        text-transform: uppercase; }
+      .team__member:not(:first-child)--terry-name {
+        font-family: 'Libre Baskerville', serif;
+        color: #1E1E1E;
+        font-weight: 400;
+        margin-top: 1.5rem; }
+      .team__member:not(:first-child)--terry-bio {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #1E1E1E;
+        line-height: 1.8;
+        margin-top: 2rem; }
+      .team__member:not(:first-child)--terry-button {
+        margin-top: 1.2rem;
+        cursor: pointer; }
+      .team__member:not(:first-child)--terry-image {
+        width: 100%; }
+  .team__mission {
+    margin-top: 5rem; }
+    .team__mission--image {
+      max-width: 100%;
+      position: relative; }
+    .team__mission--content {
+      position: relative;
+      top: -20rem; }
+      .team__mission--content-text {
+        margin-top: -1rem;
+        text-align: center;
+        line-height: 2;
+        font-size: 1.5rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        color: #F5444F;
+        text-transform: uppercase; }
+      .team__mission--content-description {
+        margin-top: 1rem;
+        color: #ffffff;
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.8rem;
+        font-weight: 400; }
+  .team__alcy {
+    display: flex;
+    margin-left: 5rem;
+    margin-top: -6rem; }
+    .team__alcy--image {
+      max-width: 50%;
+      padding-right: 3rem; }
+    .team__alcy--content {
+      margin-left: 1rem;
+      margin-top: 6.5rem;
+      margin-right: 2rem; }
+      .team__alcy--content-meet {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #F5444F;
+        text-transform: uppercase; }
+      .team__alcy--content-name {
+        font-family: 'Libre Baskerville', serif;
+        color: #1E1E1E;
+        font-weight: 400;
+        margin-top: 1.5rem; }
+      .team__alcy--content-bio {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #1E1E1E;
+        line-height: 1.8;
+        margin-top: 2rem; }
+      .team__alcy--content-button {
+        margin-top: 1.2rem;
+        cursor: pointer; }
+  .team__member {
+    display: flex;
+    margin-left: 5rem; }
+    .team__member--erin {
+      margin-top: 11rem; }
+      .team__member--erin-meet {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #F5444F;
+        text-transform: uppercase; }
+      .team__member--erin-name {
+        font-family: 'Libre Baskerville', serif;
+        color: #1E1E1E;
+        font-weight: 400;
+        margin-top: 1.5rem; }
+      .team__member--erin-bio {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #1E1E1E;
+        line-height: 1.8;
+        margin-top: 2rem; }
+        .team__member--erin-bio span {
+          font-style: italic; }
+      .team__member--erin-button {
+        margin-top: 1.2rem;
+        cursor: pointer; }
+      .team__member--erin-image {
+        margin-top: 6rem;
+        width: 50%;
+        margin-right: 3rem;
+        padding-left: 4rem; }
+  .team__deborah {
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 6rem; }
+    .team__deborah--image {
+      width: 50%;
+      padding-right: 4.5rem; }
+    .team__deborah--content {
+      margin-top: 6.5rem;
+      margin-right: 5rem; }
+      .team__deborah--content-meet {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #F5444F;
+        text-transform: uppercase; }
+      .team__deborah--content-name {
+        font-family: 'Libre Baskerville', serif;
+        color: #1E1E1E;
+        font-weight: 400;
+        margin-top: 1.5rem; }
+      .team__deborah--content-bio {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #1E1E1E;
+        line-height: 1.8;
+        margin-top: 2rem; }
+      .team__deborah--content-button {
+        margin-top: 1.2rem;
+        cursor: pointer; }
+  .team__philosophy {
+    margin-top: 4rem;
+    margin-bottom: -75rem; }
+    .team__philosophy--image {
+      position: relative;
+      max-width: 100%; }
+    .team__philosophy--content {
+      position: relative;
+      bottom: 23rem;
+      margin-left: 26rem; }
+      .team__philosophy--content-heading {
+        margin-left: -1rem;
+        color: #ffffff;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 700;
+        line-height: 3; }
+      .team__philosophy--content-list--item {
+        color: #ffffff;
+        font-size: 1.1rem;
+        font-family: 'Source Sans Pro', sans-serif; }
+  .box {
+    background-color: #F5444F;
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 2rem;
+    height: 23rem;
+    position: relative;
+    z-index: 1;
+    top: 60rem; }
+    .box__image {
+      margin-top: 4rem;
+      margin-left: 10rem; }
+      .box__image--image {
+        max-width: 65%; }
+    .box__content {
+      margin-top: 4rem;
+      margin-right: 7rem; }
+      .box__content--heading {
+        color: #ffffff;
+        font-size: 1.7rem; }
+      .box__content--text {
+        color: #ffffff;
+        margin-top: 2rem;
+        line-height: 2; }
+      .box__content--button {
+        display: flex;
+        margin-right: 2rem;
+        margin-top: 3rem; }
+        .box__content--button--image {
+          max-width: 60%; }
+      .box__content--link:last-child {
+        margin-left: -5rem; }
+  .footer {
+    position: relative;
+    bottom: -48rem;
+    margin: 0 !important;
+    background-color: #1B1B1B;
+    display: flex; }
+    .footer__logo {
+      margin-top: 13rem;
+      margin-bottom: 7rem;
+      margin-left: 8rem; }
+      .footer__logo--logo {
+        max-width: 50%;
+        margin-bottom: 2rem; }
+      .footer__logo--copyright {
+        color: #ffffff;
+        opacity: 0.5;
+        line-height: 3; }
+      .footer__logo--terms {
+        color: #ffffff;
+        opacity: 0.5; }
+    .footer__company {
+      margin-top: 15rem;
+      margin-left: 3rem; }
+      .footer__company--company {
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: 2rem; }
+      .footer__company--link {
+        text-decoration: none; }
+      .footer__company--text {
+        color: #ffffff;
+        opacity: 0.5;
+        margin-bottom: 2rem; }
+    .footer__intouch {
+      margin-top: 15rem;
+      margin-left: 10rem; }
+      .footer__intouch--heading {
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: 2rem; }
+      .footer__intouch--enquiry {
+        color: #ffffff;
+        opacity: 0.5;
+        margin-bottom: 2rem; }
+      .footer__intouch--email {
+        color: #ffffff;
+        margin-bottom: 2rem; }
+      .footer__intouch--socials > a {
+        text-decoration: none; }
+      .footer__intouch--socials-image {
+        max-width: 15%; }
+      .footer__intouch--socials-twitter {
+        margin-left: 1rem; }
+      .footer__intouch--socials-instagram {
+        margin-left: 1rem; } }
