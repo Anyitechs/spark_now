@@ -285,17 +285,26 @@ body {
       text-decoration: none;
       padding-left: 2rem;
       color: #ffffff; }
+    .home .navigation__image {
+      display: none; }
     .home .navigation__content {
+      margin: 0 auto;
       position: absolute;
-      top: 14rem; }
+      top: 10rem; }
       .home .navigation__content--heading {
+        text-align: center;
         font-family: 'Manrope', sans-serif;
-        font-size: 3.75rem; }
+        font-size: 2.8rem; }
       .home .navigation__content--description {
+        padding: 0 1rem;
+        text-align: center;
         margin-top: 2rem;
         line-height: 1.6; }
+        .home .navigation__content--description br {
+          display: none; }
       .home .navigation__content--button {
-        margin-top: 2.5rem;
+        margin-left: 3.5rem;
+        margin-top: 2rem;
         border: none;
         border-radius: 0.5rem;
         padding: 1rem 6.5rem;
@@ -313,30 +322,40 @@ body {
         z-index: -1; }
   .unique {
     position: relative;
-    top: 50rem; }
+    top: 33rem; }
     .unique__heading {
-      font-size: 3rem; }
+      text-align: center;
+      padding: 0 1rem;
+      font-size: 2.8rem; }
+      .unique__heading br {
+        display: none; }
       .unique__heading span {
         color: #F5444F; }
     .unique__description {
-      margin-top: 1.5rem; }
+      margin-top: 1.5rem;
+      text-align: center;
+      padding: 0 1rem; }
+      .unique__description br {
+        display: none; }
     .unique hr {
+      margin-left: 2rem;
       margin-top: 3rem;
-      margin-right: 4rem;
+      margin-right: 2rem;
       background: rgba(196, 196, 196, 0.5); }
     .unique__box {
       display: flex;
       flex-direction: column;
-      margin-top: 4rem; }
+      align-items: center;
+      margin-top: 3rem; }
       .unique__box > div {
         width: 18.625rem;
         height: 16.1875rem;
         background: #FFFFFF;
         box-shadow: 0px 16px 24px rgba(50, 50, 71, 0.06), 0px 12px 12px rgba(50, 50, 71, 0.06);
         border-radius: 10px;
-        margin-right: 1rem; }
+        margin-top: 1rem; }
       .unique__box--one-image {
-        margin-left: 7rem;
+        margin-left: 8rem;
         margin-top: 2rem;
         margin-bottom: 0.5rem; }
       .unique__box--one-heading {
@@ -349,26 +368,32 @@ body {
     .unique__couple {
       background: rgba(245, 68, 79, 0.01);
       background-size: cover;
-      margin-top: 4rem;
+      margin-top: 8rem;
       display: flex;
       flex-direction: column; }
       .unique__couple--image {
-        margin-left: 6rem;
-        margin-top: 8rem;
-        padding-bottom: 6rem; }
+        padding: 0 1.5rem; }
       .unique__couple--content {
-        margin-top: 8rem;
-        margin-left: 7rem; }
+        margin-top: 8rem; }
         .unique__couple--content-heading {
+          text-align: center;
           font-family: 'Rubik', sans-serif;
-          font-size: 3rem; }
+          font-size: 2.5rem;
+          padding: 0 1rem; }
+          .unique__couple--content-heading br {
+            display: none; }
         .unique__couple--content-description {
           font-family: 'Rubik', sans-serif;
           font-weight: 400;
           color: #333333;
           margin-top: 2rem;
-          line-height: 2; }
+          line-height: 2;
+          text-align: center;
+          padding: 0 1rem; }
+          .unique__couple--content-description br {
+            display: none; }
         .unique__couple--content-image {
+          margin-left: 6rem;
           margin-top: 2rem;
           cursor: pointer; }
     .unique__team {
@@ -382,30 +407,28 @@ body {
       .unique__team hr {
         border: 1.4px solid #F5444F;
         width: 3.3rem;
-        text-align: center;
         position: relative;
-        left: 36rem;
+        left: 9rem;
         top: -2rem; }
       .unique__team--team {
         display: flex;
         flex-direction: column;
+        align-items: center;
         margin-top: 2rem; }
         .unique__team--team-next {
           cursor: pointer; }
         .unique__team--team-div {
-          margin-right: 2rem;
           position: relative; }
           .unique__team--team-div-image {
             width: 350px; }
-          .unique__team--team-div:nth-child(3) {
-            margin-right: rem; }
           .unique__team--team-div-share {
             cursor: pointer;
             position: absolute;
             bottom: 4rem;
             right: 1rem; }
           .unique__team--team-div div {
-            margin-top: 2rem; }
+            margin-top: 1rem;
+            margin-bottom: 2rem; }
             .unique__team--team-div div h4 {
               font-family: 'Libre Baskerville', serif;
               line-height: 2; }
@@ -426,34 +449,34 @@ body {
         font-weight: 600; }
       .unique__testimonial--image {
         margin-top: .5rem;
-        margin-left: 32rem; }
+        margin-left: 6rem; }
       .unique__testimonial--content-footopen {
         max-width: 100%;
-        margin-left: 21rem; }
+        margin-left: 1rem;
+        margin-top: 1rem; }
       .unique__testimonial--content-testimony {
-        margin-left: 25rem;
-        margin-right: 25rem;
-        line-height: 1.8; }
+        padding: 0 4rem;
+        line-height: 1.8;
+        text-align: center; }
       .unique__testimonial--content-footclose {
-        margin-top: -5rem;
-        margin-left: 55rem; }
+        margin-top: .8rem;
+        margin-left: 20rem; }
       .unique__testimonial--content-name {
-        margin-left: 25rem;
-        margin-top: 1rem;
+        margin-left: 4.5rem;
+        margin-top: -1.5rem;
         line-height: 2.5; }
   .footer {
-    position: relative;
-    bottom: -51rem;
-    margin: 0 !important;
     background-color: #1B1B1B;
-    display: flex; }
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    margin-top: 37rem; }
     .footer__logo {
-      margin-top: 5rem;
-      margin-bottom: 7rem;
-      margin-left: 8rem; }
+      text-align: center;
+      margin-top: 3rem;
+      margin-bottom: 3rem; }
       .footer__logo--logo {
-        max-width: 50%;
-        margin-bottom: 2rem; }
+        max-width: 50%; }
       .footer__logo--copyright {
         color: #ffffff;
         opacity: 0.5;
@@ -462,8 +485,7 @@ body {
         color: #ffffff;
         opacity: 0.5; }
     .footer__company {
-      margin-top: 6.5rem;
-      margin-left: 3rem; }
+      text-align: center; }
       .footer__company--company {
         color: #ffffff;
         text-transform: uppercase;
@@ -475,8 +497,8 @@ body {
         opacity: 0.5;
         margin-bottom: 2rem; }
     .footer__intouch {
-      margin-top: 6.5rem;
-      margin-left: 10rem; }
+      text-align: center;
+      margin-top: 1rem; }
       .footer__intouch--heading {
         color: #ffffff;
         text-transform: uppercase;

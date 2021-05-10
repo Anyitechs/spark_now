@@ -487,23 +487,37 @@ $color-footer: #1B1B1B;
                 }
             }
 
+
+            &__image {
+                display: none;
+            }
+
             &__content {
+                margin: 0 auto;
                 position: absolute;
-                top: 14rem;
+                top: 10rem;
                 // left: 4rem;
 
                 &--heading {
+                    text-align: center;
                     font-family: 'Manrope', sans-serif;
-                    font-size: 3.75rem;
+                    font-size: 2.8rem;
                 }
 
                 &--description {
+                    padding: 0 1rem;
+                    text-align: center;
                     margin-top: 2rem;
                     line-height: 1.6;
+
+                    br {
+                        display: none;
+                    }
                 }
 
                 &--button {
-                    margin-top: 2.5rem;
+                    margin-left: 3.5rem;
+                    margin-top: 2rem;
                     border: none;
                     border-radius: 0.5rem;
                     padding: 1rem 6.5rem;
@@ -514,7 +528,7 @@ $color-footer: #1B1B1B;
                 &--image1 {
                     position: relative;
                     bottom: 4.5rem;
-                    right: 2.9rem;
+                    right: 2.9rem; 
                     z-index: -1;
                 }
 
@@ -530,11 +544,17 @@ $color-footer: #1B1B1B;
 
     .unique {
         position: relative;
-        top: 50rem;
+        top: 33rem;
         // margin-left: 4rem;
 
         &__heading {
-            font-size: 3rem;
+            text-align: center;
+            padding: 0 1rem;
+            font-size: 2.8rem;
+
+            br {
+                display: none;
+            }
 
             span {
                 color: $color-primary;
@@ -543,11 +563,18 @@ $color-footer: #1B1B1B;
 
         &__description {
             margin-top: 1.5rem;
+            text-align: center;
+            padding: 0 1rem;
+
+            br {
+                display: none;
+            }
         }
 
         hr {
+            margin-left: 2rem;
             margin-top: 3rem;
-            margin-right: 4rem;
+            margin-right: 2rem;
             background: rgba(196, 196, 196, 0.5);
             // margin-bottom: 10rem;
         }
@@ -555,7 +582,8 @@ $color-footer: #1B1B1B;
         &__box {
             display: flex;
             flex-direction: column;
-            margin-top: 4rem;
+            align-items: center;
+            margin-top: 3rem;
 
             & > div {
                 width: 18.625rem;
@@ -563,7 +591,8 @@ $color-footer: #1B1B1B;
                 background: #FFFFFF;
                 box-shadow: 0px 16px 24px rgba(50, 50, 71, 0.06), 0px 12px 12px rgba(50, 50, 71, 0.06);
                 border-radius: 10px;
-                margin-right: 1rem;
+                // margin-right: 1rem;
+                margin-top: 1rem;
             }
 
             &--one {
@@ -574,7 +603,7 @@ $color-footer: #1B1B1B;
                 }
 
                 &-image {
-                    margin-left: 7rem;
+                    margin-left: 8rem;
                     margin-top: 2rem;
                     margin-bottom: 0.5rem;
                 }
@@ -595,23 +624,28 @@ $color-footer: #1B1B1B;
         &__couple {
             background: rgba(245, 68, 79, 0.01);
             background-size: cover;
-            margin-top: 4rem;
+            margin-top: 8rem;
             display: flex;
             flex-direction: column;
 
             &--image {
-                margin-left: 6rem;
-                margin-top: 8rem;
-                padding-bottom: 6rem;
+                // margin: 0 auto;
+                padding: 0 1.5rem;
             }
 
             &--content {
                 margin-top: 8rem;
-                margin-left: 7rem;
+                // margin-left: 7rem;
 
                 &-heading {
+                    text-align: center;
                     font-family: 'Rubik', sans-serif;
-                    font-size: 3rem;
+                    font-size: 2.5rem;
+                    padding: 0 1rem;
+
+                    br {
+                        display: none;
+                    }
                 }
 
                 &-description {
@@ -620,9 +654,16 @@ $color-footer: #1B1B1B;
                     color: #333333;
                     margin-top: 2rem;
                     line-height: 2;
+                    text-align: center;
+                    padding: 0 1rem;
+
+                    br {
+                        display: none;
+                    }
                 }
 
                 &-image {
+                    margin-left: 6rem;
                     margin-top: 2rem;
                     cursor: pointer;
                 }
@@ -645,15 +686,16 @@ $color-footer: #1B1B1B;
             hr {
             border: 1.4px solid $color-primary;
             width: 3.3rem;
-            text-align: center;
+            // text-align: center;
             position: relative;
-            left: 36rem;
+            left: 9rem;
             top: -2rem;
             }
 
             &--team {
                 display: flex;
                 flex-direction: column;
+                align-items: center;
                 margin-top: 2rem;
                 // overflow: hidden;
 
@@ -662,7 +704,8 @@ $color-footer: #1B1B1B;
                 }
 
                 &-div {
-                    margin-right: 2rem;
+                    // padding: 0 1rem;
+                    // margin-right: 2rem;
                     position: relative;
 
                     &-image {
@@ -670,7 +713,7 @@ $color-footer: #1B1B1B;
                     }
 
                     &:nth-child(3) {
-                        margin-right: rem;
+                        // margin-right: rem;
                     }
 
                     &-share {
@@ -681,7 +724,8 @@ $color-footer: #1B1B1B;
                     }
 
                     div {
-                        margin-top: 2rem;
+                        margin-top: 1rem;
+                        margin-bottom: 2rem;
 
                     h4 {
                             font-family: 'Libre Baskerville', serif;
@@ -716,31 +760,31 @@ $color-footer: #1B1B1B;
             
                 &--image {
                     margin-top: .5rem;
-                    margin-left: 32rem;
+                    margin-left: 6rem;
                 }
             
                 &--content {
             
                     &-footopen {
                         max-width: 100%;
-                        margin-left: 21rem;
+                        margin-left: 1rem;
+                        margin-top: 1rem;
                     }
             
                     &-testimony {
-                        margin-left: 25rem;
-                        margin-right: 25rem;
+                        padding: 0 4rem;
                         line-height: 1.8;
-                        // text-align: center;
+                        text-align: center;
                     }
             
                     &-footclose {
-                        margin-top: -5rem;
-                        margin-left: 55rem;
+                        margin-top: .8rem;
+                        margin-left: 20rem;
                     }
             
                     &-name {
-                        margin-left: 25rem;
-                        margin-top: 1rem;
+                        margin-left: 4.5rem;
+                        margin-top: -1.5rem;
                         line-height: 2.5;
                     }
                 }
@@ -750,20 +794,20 @@ $color-footer: #1B1B1B;
     }
 
     .footer {
-        position: relative;
-        bottom: -51rem;
-        margin: 0 !important;
         background-color: $color-footer;
         display: flex;
+        flex-direction: column;
+        padding-bottom: 3rem;
+        margin-top: 37rem;
 
         &__logo {
-            margin-top: 5rem;
-            margin-bottom: 7rem;
-            margin-left: 8rem;
+            text-align: center;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
 
             &--logo {
                 max-width: 50%;
-                margin-bottom: 2rem;
+                // margin-bottom: 2rem;
             }
 
             &--copyright {
@@ -780,8 +824,9 @@ $color-footer: #1B1B1B;
         }
 
         &__company {
-            margin-top: 6.5rem;
-            margin-left: 3rem;
+            text-align: center;
+            // margin-top: 16.5rem;
+            // margin-left: 3rem;
 
             &--company {
                 color: $color-secondary;
@@ -802,8 +847,9 @@ $color-footer: #1B1B1B;
         }
 
         &__intouch {
-            margin-top: 6.5rem;
-            margin-left: 10rem;
+            text-align: center;
+            margin-top: 1rem;
+            // margin-left: 10rem;
 
             &--heading {
                 color: $color-secondary;
