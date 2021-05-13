@@ -630,23 +630,42 @@ $color-footer: #1B1B1B;
 
     .team {
 
+        .dana {
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 0 1rem;
+            padding-bottom: 3rem;
+            border-bottom: 1px solid grey;
+        }
+
+        .terry {
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            text-align: center;
+            padding: 2rem 1rem;
+            border-bottom: 1px solid grey;
+        }
 
         &__member {
             display: flex;
-            flex-direction: column;
+            flex-direction: column-reverse;
             align-items: center;
             // margin-left: 5rem;
 
 
             &--image {
-                max-width: 100%;
-                // padding-right: 4rem;
+                width: 100%;
             }
 
 
             &--content {
                 // margin-left: 1rem;
-                margin-top: 6.5rem;
+                margin-top: 2rem;
                 // margin-right: 2rem;
 
 
@@ -678,7 +697,7 @@ $color-footer: #1B1B1B;
         }
 
 
-        &__member:not(:first-child) {
+        &__member {
             display: flex;
             flex-direction: column-reverse;
             // margin-left: 5rem;
@@ -686,7 +705,7 @@ $color-footer: #1B1B1B;
 
             
             &--terry {
-                margin-top: 9rem;
+                margin-top: 2rem;
 
 
                 &-meet {
@@ -726,23 +745,23 @@ $color-footer: #1B1B1B;
         }
 
         &__mission {
-            margin-top: 5rem;
+            margin-top: 3rem;
 
             &--image {
-                max-width: 100%;
+                width: 100%;
                 position: relative;
             }
 
             &--content {
                 position: relative;
-                top: -20rem;
+                top: -7rem;
                 // left: 35rem;
 
                 &-text {
                     margin-top: -1rem;
                     text-align: center;
                     line-height: 2;
-                    font-size: 1.5rem;
+                    font-size: .7rem;
                     font-family: 'Source Sans Pro', sans-serif;
                     font-weight: 700;
                     color: $color-primary;
@@ -754,27 +773,33 @@ $color-footer: #1B1B1B;
                     color: $color-secondary;
                     text-align: center;
                     font-family: 'Source Sans Pro', sans-serif;
-                    font-size: 1.8rem;
+                    font-size: .8rem;
                     font-weight: 400;
                 }
             }
         }
 
         &__alcy {
+            margin: 0 auto;
             display: flex;
-            margin-left: 5rem;
-            margin-top: -6rem;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 2rem 1rem;
+            border-bottom: 1px solid grey;
+            // margin-left: 5rem;
+            margin-top: -5rem;
 
             &--image {
-                max-width: 50%;
-                padding-right: 3rem;
+                width: 100%;
+                // padding-right: 3rem;
             }
 
 
             &--content {
-                margin-left: 1rem;
-                margin-top: 6.5rem;
-                margin-right: 2rem;
+                // margin-left: 1rem;
+                margin-top: 2rem;
+                // margin-right: 2rem;
 
 
                 &-meet {
@@ -795,24 +820,37 @@ $color-footer: #1B1B1B;
                     color: #1E1E1E;
                     line-height: 1.8;
                     margin-top: 2rem;
+
+                    br {
+                        display: none;
+                    }
                 }
 
                 &-button {
                     margin-top: 1.2rem;
+                    margin-bottom: 1.5rem;
                     cursor: pointer;
                 }
             }
         }
 
+        .erin {
+            margin-top: 1.5rem;
+        }
         
         &__member {
+            margin: 0 auto;
             display: flex;
-            margin-left: 5rem;
+            flex-direction: column-reverse;
+            align-items: center;
+            text-align: center;
+            padding: 2rem 1rem;
+            border-bottom: 1px solid grey;
 
 
             
             &--erin {
-                margin-top: 11rem;
+                margin-top: 2rem;
 
 
                 &-meet {
@@ -833,6 +871,10 @@ $color-footer: #1B1B1B;
                     color: #1E1E1E;
                     line-height: 1.8;
                     margin-top: 2rem;
+
+                    br {
+                        display: none;
+                    }
 
                     span {
                         font-style: italic;
@@ -842,36 +884,39 @@ $color-footer: #1B1B1B;
                 &-button {
                     margin-top: 1.2rem;
                     cursor: pointer;
+                    margin-bottom: 1.5rem;
                 }
 
                 &-image {
-                    margin-top: 6rem;
-                    width: 50%;
-                    margin-right: 3rem;
-                    padding-left: 4rem;
+                    width: 100%;
                 }
 
             }
 
         }
 
+        .deborah {
+            margin-top: 1.5rem;
+        }
         
         &__deborah {
+            margin: 0 auto;
             display: flex;
-            margin-left: 5rem;
-            margin-top: 6rem;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 2rem 1rem;
+            border-bottom: 1px solid grey;
 
             &--image {
-                width: 50%;
-                // max-width: ;
-                padding-right: 4.5rem;
+                width: 100%;
+
             }
 
 
             &--content {
                 // margin-left: 1rem;
-                margin-top: 6.5rem;
-                margin-right: 5rem;
+                margin-top: 2rem;
 
 
                 &-meet {
@@ -892,16 +937,22 @@ $color-footer: #1B1B1B;
                     color: #1E1E1E;
                     line-height: 1.8;
                     margin-top: 2rem;
+
+                    br {
+                        display: none;
+                    }
                 }
 
                 &-button {
                     margin-top: 1.2rem;
                     cursor: pointer;
+                    margin-bottom: 1.5rem;
                 }
             }
         }
 
         &__philosophy {
+            visibility: hidden;
             margin-top: 4rem;
             margin-bottom: -75rem;
 
@@ -913,11 +964,11 @@ $color-footer: #1B1B1B;
             &--content {
                 position: relative;
                 bottom: 23rem;
-                margin-left: 26rem;
+                // margin-left: 26rem;
 
                 &-heading {
                     margin-left: -1rem;
-                    color: $color-secondary;
+                    color: $color-primary;
                     font-family: 'Source Sans Pro', sans-serif;
                     font-size: 1.3rem;
                     font-weight: 700;
@@ -942,17 +993,17 @@ $color-footer: #1B1B1B;
     .box {
         background-color: $color-primary;
         display: flex;
-        margin-left: 5rem;
-        margin-right: 5rem;
+        flex-direction: column;
+        margin: 0 auto;
         border-radius: 2rem;
-        height: 23rem;
+        width: 21rem;
+        height: 43rem;
         position: relative;
-        z-index: 1;
-        top: 60rem;
+        top: 41rem;
 
         &__image {
             margin-top: 4rem;
-            margin-left: 10rem;
+            margin-left: 5rem;
 
             &--image {
                 max-width: 65%;
@@ -960,52 +1011,55 @@ $color-footer: #1B1B1B;
         }
 
         &__content {
-            margin-top: 4rem;
-            margin-right: 7rem;
+            // margin-top: 4rem;
+            // margin-right: 7rem;
 
             &--heading {
+                margin-top: 2rem;
+                text-align: center;
                 color: $color-secondary;
                 font-size: 1.7rem;
             }
 
             &--text {
+                text-align: center;
+                padding: 1rem;
                 color: $color-secondary;
-                margin-top: 2rem;
+                margin-top: 1rem;
                 line-height: 2;
             }
 
             &--button {
                 display: flex;
-                margin-right: 2rem;
-                margin-top: 3rem;
+                flex-direction: column;
+                text-align: center;
+                margin-top: 1rem;
 
                 &--image {
                     max-width: 60%;
+                    padding-bottom: 1rem;
                 }
-            }
-
-            &--link:last-child {
-                margin-left: -5rem;
             }
         }
     }
 
 
+
     .footer {
-        position: relative;
-        bottom: -48rem;
-        margin: 0 !important;
         background-color: $color-footer;
         display: flex;
+        flex-direction: column;
+        padding-bottom: 3rem;
+        margin-top: 13rem;
 
         &__logo {
-            margin-top: 13rem;
-            margin-bottom: 7rem;
-            margin-left: 8rem;
+            text-align: center;
+            margin-top: 30rem;
+            margin-bottom: 3rem;
 
             &--logo {
                 max-width: 50%;
-                margin-bottom: 2rem;
+                // margin-bottom: 2rem;
             }
 
             &--copyright {
@@ -1022,8 +1076,9 @@ $color-footer: #1B1B1B;
         }
 
         &__company {
-            margin-top: 15rem;
-            margin-left: 3rem;
+            text-align: center;
+            // margin-top: 16.5rem;
+            // margin-left: 3rem;
 
             &--company {
                 color: $color-secondary;
@@ -1044,8 +1099,9 @@ $color-footer: #1B1B1B;
         }
 
         &__intouch {
-            margin-top: 15rem;
-            margin-left: 10rem;
+            text-align: center;
+            margin-top: 1rem;
+            // margin-left: 10rem;
 
             &--heading {
                 color: $color-secondary;

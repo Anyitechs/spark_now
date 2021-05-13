@@ -365,14 +365,31 @@ body {
       position: relative;
       top: -3rem;
       right: -10rem; }
-  .team__member {
+  .team .dana {
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid grey; }
+  .team .terry {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 1px solid grey; }
+  .team__member {
+    display: flex;
+    flex-direction: column-reverse;
     align-items: center; }
     .team__member--image {
-      max-width: 100%; }
+      width: 100%; }
     .team__member--content {
-      margin-top: 6.5rem; }
+      margin-top: 2rem; }
       .team__member--content-meet {
         font-family: 'Source Sans Pro', sans-serif;
         color: #F5444F;
@@ -390,43 +407,43 @@ body {
       .team__member--content-button {
         margin-top: 1.2rem;
         cursor: pointer; }
-  .team__member:not(:first-child) {
+  .team__member {
     display: flex;
     flex-direction: column-reverse; }
-    .team__member:not(:first-child)--terry {
-      margin-top: 9rem; }
-      .team__member:not(:first-child)--terry-meet {
+    .team__member--terry {
+      margin-top: 2rem; }
+      .team__member--terry-meet {
         font-family: 'Source Sans Pro', sans-serif;
         color: #F5444F;
         text-transform: uppercase; }
-      .team__member:not(:first-child)--terry-name {
+      .team__member--terry-name {
         font-family: 'Libre Baskerville', serif;
         color: #1E1E1E;
         font-weight: 400;
         margin-top: 1.5rem; }
-      .team__member:not(:first-child)--terry-bio {
+      .team__member--terry-bio {
         font-family: 'Source Sans Pro', sans-serif;
         color: #1E1E1E;
         line-height: 1.8;
         margin-top: 2rem; }
-      .team__member:not(:first-child)--terry-button {
+      .team__member--terry-button {
         margin-top: 1.2rem;
         cursor: pointer; }
-      .team__member:not(:first-child)--terry-image {
+      .team__member--terry-image {
         width: 100%; }
   .team__mission {
-    margin-top: 5rem; }
+    margin-top: 3rem; }
     .team__mission--image {
-      max-width: 100%;
+      width: 100%;
       position: relative; }
     .team__mission--content {
       position: relative;
-      top: -20rem; }
+      top: -7rem; }
       .team__mission--content-text {
         margin-top: -1rem;
         text-align: center;
         line-height: 2;
-        font-size: 1.5rem;
+        font-size: .7rem;
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: 700;
         color: #F5444F;
@@ -436,19 +453,21 @@ body {
         color: #ffffff;
         text-align: center;
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: 1.8rem;
+        font-size: .8rem;
         font-weight: 400; }
   .team__alcy {
+    margin: 0 auto;
     display: flex;
-    margin-left: 5rem;
-    margin-top: -6rem; }
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 1px solid grey;
+    margin-top: -5rem; }
     .team__alcy--image {
-      max-width: 50%;
-      padding-right: 3rem; }
+      width: 100%; }
     .team__alcy--content {
-      margin-left: 1rem;
-      margin-top: 6.5rem;
-      margin-right: 2rem; }
+      margin-top: 2rem; }
       .team__alcy--content-meet {
         font-family: 'Source Sans Pro', sans-serif;
         color: #F5444F;
@@ -463,14 +482,24 @@ body {
         color: #1E1E1E;
         line-height: 1.8;
         margin-top: 2rem; }
+        .team__alcy--content-bio br {
+          display: none; }
       .team__alcy--content-button {
         margin-top: 1.2rem;
+        margin-bottom: 1.5rem;
         cursor: pointer; }
+  .team .erin {
+    margin-top: 1.5rem; }
   .team__member {
+    margin: 0 auto;
     display: flex;
-    margin-left: 5rem; }
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 1px solid grey; }
     .team__member--erin {
-      margin-top: 11rem; }
+      margin-top: 2rem; }
       .team__member--erin-meet {
         font-family: 'Source Sans Pro', sans-serif;
         color: #F5444F;
@@ -485,26 +514,30 @@ body {
         color: #1E1E1E;
         line-height: 1.8;
         margin-top: 2rem; }
+        .team__member--erin-bio br {
+          display: none; }
         .team__member--erin-bio span {
           font-style: italic; }
       .team__member--erin-button {
         margin-top: 1.2rem;
-        cursor: pointer; }
+        cursor: pointer;
+        margin-bottom: 1.5rem; }
       .team__member--erin-image {
-        margin-top: 6rem;
-        width: 50%;
-        margin-right: 3rem;
-        padding-left: 4rem; }
+        width: 100%; }
+  .team .deborah {
+    margin-top: 1.5rem; }
   .team__deborah {
+    margin: 0 auto;
     display: flex;
-    margin-left: 5rem;
-    margin-top: 6rem; }
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 1px solid grey; }
     .team__deborah--image {
-      width: 50%;
-      padding-right: 4.5rem; }
+      width: 100%; }
     .team__deborah--content {
-      margin-top: 6.5rem;
-      margin-right: 5rem; }
+      margin-top: 2rem; }
       .team__deborah--content-meet {
         font-family: 'Source Sans Pro', sans-serif;
         color: #F5444F;
@@ -519,10 +552,14 @@ body {
         color: #1E1E1E;
         line-height: 1.8;
         margin-top: 2rem; }
+        .team__deborah--content-bio br {
+          display: none; }
       .team__deborah--content-button {
         margin-top: 1.2rem;
-        cursor: pointer; }
+        cursor: pointer;
+        margin-bottom: 1.5rem; }
   .team__philosophy {
+    visibility: hidden;
     margin-top: 4rem;
     margin-bottom: -75rem; }
     .team__philosophy--image {
@@ -530,11 +567,10 @@ body {
       max-width: 100%; }
     .team__philosophy--content {
       position: relative;
-      bottom: 23rem;
-      margin-left: 26rem; }
+      bottom: 23rem; }
       .team__philosophy--content-heading {
         margin-left: -1rem;
-        color: #ffffff;
+        color: #F5444F;
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 1.3rem;
         font-weight: 700;
@@ -546,49 +582,49 @@ body {
   .box {
     background-color: #F5444F;
     display: flex;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    flex-direction: column;
+    margin: 0 auto;
     border-radius: 2rem;
-    height: 23rem;
+    width: 21rem;
+    height: 43rem;
     position: relative;
-    z-index: 1;
-    top: 60rem; }
+    top: 41rem; }
     .box__image {
       margin-top: 4rem;
-      margin-left: 10rem; }
+      margin-left: 5rem; }
       .box__image--image {
         max-width: 65%; }
-    .box__content {
-      margin-top: 4rem;
-      margin-right: 7rem; }
-      .box__content--heading {
-        color: #ffffff;
-        font-size: 1.7rem; }
-      .box__content--text {
-        color: #ffffff;
-        margin-top: 2rem;
-        line-height: 2; }
-      .box__content--button {
-        display: flex;
-        margin-right: 2rem;
-        margin-top: 3rem; }
-        .box__content--button--image {
-          max-width: 60%; }
-      .box__content--link:last-child {
-        margin-left: -5rem; }
+    .box__content--heading {
+      margin-top: 2rem;
+      text-align: center;
+      color: #ffffff;
+      font-size: 1.7rem; }
+    .box__content--text {
+      text-align: center;
+      padding: 1rem;
+      color: #ffffff;
+      margin-top: 1rem;
+      line-height: 2; }
+    .box__content--button {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-top: 1rem; }
+      .box__content--button--image {
+        max-width: 60%;
+        padding-bottom: 1rem; }
   .footer {
-    position: relative;
-    bottom: -48rem;
-    margin: 0 !important;
     background-color: #1B1B1B;
-    display: flex; }
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    margin-top: 13rem; }
     .footer__logo {
-      margin-top: 13rem;
-      margin-bottom: 7rem;
-      margin-left: 8rem; }
+      text-align: center;
+      margin-top: 30rem;
+      margin-bottom: 3rem; }
       .footer__logo--logo {
-        max-width: 50%;
-        margin-bottom: 2rem; }
+        max-width: 50%; }
       .footer__logo--copyright {
         color: #ffffff;
         opacity: 0.5;
@@ -597,8 +633,7 @@ body {
         color: #ffffff;
         opacity: 0.5; }
     .footer__company {
-      margin-top: 15rem;
-      margin-left: 3rem; }
+      text-align: center; }
       .footer__company--company {
         color: #ffffff;
         text-transform: uppercase;
@@ -610,8 +645,8 @@ body {
         opacity: 0.5;
         margin-bottom: 2rem; }
     .footer__intouch {
-      margin-top: 15rem;
-      margin-left: 10rem; }
+      text-align: center;
+      margin-top: 1rem; }
       .footer__intouch--heading {
         color: #ffffff;
         text-transform: uppercase;
