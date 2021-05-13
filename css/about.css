@@ -372,7 +372,7 @@ body {
       display: flex;
       flex-direction: column; }
       .unique__couple--image {
-        padding: 0 1.5rem; }
+        width: 100%; }
       .unique__couple--content {
         margin-top: 8rem; }
         .unique__couple--content-heading {
