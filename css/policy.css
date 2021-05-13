@@ -22,6 +22,8 @@ body {
     background-size: cover; }
     .home .navigation {
       display: flex; }
+      .home .navigation .icon {
+        display: none; }
       .home .navigation__logo {
         margin-top: 1.2rem;
         margin-left: 4rem; }

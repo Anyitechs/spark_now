@@ -42,13 +42,14 @@ $color-footer: #1B1B1B;
             }
 
             &__logo {
-                max-width: 50%;
+                // max-width: 50%;
                 margin-left: 3rem;
+                margin-top: 1rem;
             }
 
             &__list {
                 margin-top: 3.5rem;
-                margin-left: 12rem;
+                margin-left: 29rem;
                 display: flex;
                 justify-content: space-between;
             }
@@ -234,7 +235,7 @@ $color-footer: #1B1B1B;
 
         &__vector {
             position: relative;
-            left: 8rem;
+            // left: 8rem;
 
             &--image {
                 max-width: 100%;
@@ -435,9 +436,9 @@ $color-footer: #1B1B1B;
             }
 
             &__logo {
-                max-width: 40%;
+                // max-width: 40%;
                 margin-top: .5rem;
-                // margin-left: 3rem;
+                margin-left: 1rem;
             }
 
             &__list {

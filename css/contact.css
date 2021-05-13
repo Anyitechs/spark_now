@@ -23,11 +23,11 @@ body {
         color: #ffffff;
         display: none; }
       .home .navigation__logo {
-        max-width: 50%;
-        margin-left: 3rem; }
+        margin-left: 3rem;
+        margin-top: 1rem; }
       .home .navigation__list {
         margin-top: 3.5rem;
-        margin-left: 12rem;
+        margin-left: 29rem;
         display: flex;
         justify-content: space-between; }
       .home .navigation__item {
@@ -140,8 +140,7 @@ body {
       .couple__content--description {
         margin-top: 1.5rem; }
     .couple__vector {
-      position: relative;
-      left: 8rem; }
+      position: relative; }
       .couple__vector--image {
         max-width: 100%; }
   .hand {
@@ -259,8 +258,8 @@ body {
         left: 21rem;
         top: 2rem; }
       .home .navigation__logo {
-        max-width: 40%;
-        margin-top: .5rem; }
+        margin-top: .5rem;
+        margin-left: 1rem; }
       .home .navigation__list {
         background-color: #ffffff;
         display: none; }

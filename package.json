@@ -9,7 +9,8 @@
     "compile:challenge": "node-sass sass/challenge.scss css/challenge.css -w",
     "compile:policy": "node-sass sass/policy.scss css/policy.css -w",
     "compile:about": "node-sass sass/about.scss css/about.css -w",
-    "compile:team": "node-sass sass/team.scss css/team.css -w"
+    "compile:team": "node-sass sass/team.scss css/team.css -w",
+    "compile:blog": "node-sass sass/blog.scss css/blog.css -w"
   },
   "author": "Ifeanyichukwu Amajuoyi",
   "license": "ISC",

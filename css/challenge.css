@@ -24,13 +24,12 @@ body {
         color: #ffffff;
         display: none; }
       .home .navigation__logo {
-        max-width: 50%;
         margin-left: 3rem; }
         .home .navigation__logo--link {
           text-decoration: none; }
       .home .navigation__list {
         margin-top: 3.5rem;
-        margin-left: 12rem;
+        margin-left: 26rem;
         display: flex;
         justify-content: space-between; }
       .home .navigation__item {

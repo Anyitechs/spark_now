@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  /* This defines what 1rem should be */ }
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  box-sizing: border-box; }
+
+/* Desktop and Laptop View */
+@media (min-width: 768px) {
+  .home {
+    background-color: #ffffff; }
+    .home .navigation {
+      display: flex; }
+      .home .navigation .icon {
+        color: #ffffff;
+        display: none; }
+      .home .navigation__logo {
+        margin-left: 3rem; }
+        .home .navigation__logo--link {
+          text-decoration: none; }
+      .home .navigation__list {
+        margin-top: 3.5rem;
+        margin-left: 26rem;
+        display: flex;
+        justify-content: space-between; }
+      .home .navigation__item {
+        list-style: none; }
+      .home .navigation__link:link, .home .navigation__link:visited {
+        text-decoration: none;
+        padding-left: 2rem;
+        color: #F5444F; }
+    .home .banner {
+      display: flex; }
+      .home .banner__first--text {
+        position: relative;
+        top: 7rem;
+        z-index: 1;
+        left: 5rem;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 56px;
+        /* or 117% */
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.02em;
+        color: #F5444F; }
+      .home .banner__first--image {
+        padding: 0 .1rem;
+        position: relative;
+        top: -6rem;
+        max-width: 100%; }
+      .home .banner__second {
+        width: 730px;
+        height: 517px;
+        background-color: #CBF7F0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .home .banner__second--image {
+          max-width: 70%; }
+        .home .banner__second--form {
+          display: flex;
+          flex-direction: column;
+          margin-left: 1rem;
+          margin-top: 1.5rem; }
+          .home .banner__second--form input {
+            width: 392px;
+            height: 56px;
+            border: 1px solid #F5444F;
+            box-sizing: border-box;
+            filter: drop-shadow(0px 4px 24px rgba(59, 0, 181, 0.03));
+            border-radius: 8px;
+            margin-top: .5rem;
+            font-size: 20px;
+            padding: 0 1rem; }
+            .home .banner__second--form input:focus {
+              outline: none; }
+          .home .banner__second--form label {
+            display: block;
+            color: #F5444F; }
+          .home .banner__second--form button {
+            border: none;
+            cursor: pointer;
+            margin-top: 2rem;
+            width: 392px;
+            height: 56px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            background: #F5444F;
+            border-radius: 8px;
+            color: #ffffff; }
+            .home .banner__second--form button:hover {
+              background-color: #f65c66; }
+  .body {
+    margin-left: 4rem; }
+    .body .survive {
+      display: flex;
+      background: rgba(245, 68, 79, 0.01); }
+    .body .bimage {
+      margin-left: 9rem; }
+    .body .transparent {
+      position: relative;
+      top: 5rem; }
+    .body .transparent_content {
+      position: relative;
+      top: 10rem; }
+    .body__content--text {
+      position: relative;
+      top: 3rem; }
+      .body__content--text .new {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #F5444F; }
+      .body__content--text .title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 72px;
+        letter-spacing: 0.02em;
+        color: #313131; }
+      .body__content--text .content {
+        margin-top: 1rem;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #333333; }
+      .body__content--text .button {
+        margin-top: 1rem;
+        cursor: pointer; }
+    .body__content--image {
+      margin-top: -28rem;
+      max-width: 100%; } }
