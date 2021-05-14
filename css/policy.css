@@ -16,7 +16,7 @@ body {
   box-sizing: border-box; }
 
 /* Desktop and Laptop View */
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 768px) {
   .home {
     background-image: url("../images/back.png");
     background-repeat: no-repeat;
