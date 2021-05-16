@@ -115,6 +115,7 @@ body {
         margin-bottom: 1.2rem;
         margin-left: 3.2rem; }
       .contact__form--submit {
+        cursor: pointer;
         background-color: #F5444F;
         color: #ffffff;
         padding: 10px;
@@ -125,6 +126,10 @@ body {
         margin-bottom: 5rem;
         border: none;
         border-radius: 8px; }
+        .contact__form--submit:focus {
+          outline: none; }
+        .contact__form--submit:hover {
+          background-color: #f65c66; }
   .couple {
     display: flex;
     margin-left: 5rem; }
