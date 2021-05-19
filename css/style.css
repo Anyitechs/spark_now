@@ -15,7 +15,7 @@ body {
   font-family: 'Rubik', sans-serif;
   box-sizing: border-box; }
 
-/* Desktop and Laptop View */
+/* Desktop and Laptop Views */
 @media (min-width: 768px) {
   .home {
     background-color: #F5444F;
@@ -218,7 +218,7 @@ body {
     .testimonial__text {
       margin-top: .7rem;
       text-align: center;
-      font-family: 'Nunito Sans', sans-serif;
+      font-family: 'Rubik', sans-serif;
       font-weight: 600; }
     .testimonial__image {
       margin-top: .5rem;
@@ -563,7 +563,7 @@ body {
     .testimonial__text {
       margin-top: .7rem;
       text-align: center;
-      font-family: 'Nunito Sans', sans-serif;
+      font-family: 'Rubik', sans-serif;
       font-weight: 600; }
     .testimonial__image {
       margin-top: .5rem;
