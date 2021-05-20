@@ -306,13 +306,13 @@ body {
         .home .navigation__content--description br {
           display: none; }
       .home .navigation__content--button {
-        margin-left: 3.5rem;
+        max-width: 50%; }
+      .home .navigation__content .app {
         margin-top: 2rem;
-        border: none;
-        border-radius: 0.5rem;
-        padding: 1rem 6.5rem;
-        color: #ffffff;
-        background-color: #F5444F; }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none; }
       .home .navigation__content--image1 {
         position: relative;
         bottom: 4.5rem;

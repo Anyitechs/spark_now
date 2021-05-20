@@ -146,9 +146,10 @@ body {
       .couple__content--description {
         margin-top: 1.5rem; }
     .couple__vector {
-      position: relative; }
+      position: relative;
+      left: 8rem; }
       .couple__vector--image {
-        max-width: 100%; }
+        max-width: 80%; }
   .hand {
     position: relative;
     margin-bottom: -13rem; }

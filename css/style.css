@@ -233,8 +233,8 @@ body {
     .testimonial__content--footclose {
       display: flex;
       flex-direction: column;
-      margin-top: -5rem;
-      margin-left: 55rem; }
+      margin-top: -3rem;
+      margin-left: 62rem; }
     .testimonial__content--name {
       margin-left: 25rem;
       margin-top: 1rem;
@@ -563,7 +563,7 @@ body {
     .testimonial__text {
       margin-top: .7rem;
       text-align: center;
-      font-family: 'Rubik', sans-serif;
+      font-family: 'Nunito Sans', sans-serif;
       font-weight: 600; }
     .testimonial__image {
       margin-top: .5rem;
