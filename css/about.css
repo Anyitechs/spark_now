@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
@@ -54,7 +53,6 @@ body {
         top: 14rem;
         left: 4rem; }
         .home .navigation__content--heading {
-          font-family: 'Manrope', sans-serif;
           font-size: 3.75rem; }
         .home .navigation__content--description {
           margin-top: 2rem;
@@ -125,10 +123,8 @@ body {
         margin-top: 8rem;
         margin-left: 7rem; }
         .unique__couple--content-heading {
-          font-family: 'Rubik', sans-serif;
           font-size: 3rem; }
         .unique__couple--content-description {
-          font-family: 'Rubik', sans-serif;
           font-weight: 400;
           color: #333333;
           margin-top: 2rem;
@@ -139,7 +135,6 @@ body {
     .unique__team {
       margin-top: 8rem; }
       .unique__team--heading {
-        font-family: 'Libre Baskerville', serif;
         text-align: center;
         line-height: 2; }
       .unique__team--text {
@@ -171,10 +166,7 @@ body {
           .unique__team--team-div div {
             margin-top: 2rem; }
             .unique__team--team-div div h4 {
-              font-family: 'Libre Baskerville', serif;
               line-height: 2; }
-            .unique__team--team-div div p {
-              font-family: 'Source Sans Pro', sans-serif; }
     .unique__testimonial {
       margin-top: 6rem;
       margin-bottom: 2rem; }
@@ -186,7 +178,6 @@ body {
       .unique__testimonial--text {
         margin-top: .7rem;
         text-align: center;
-        font-family: 'Nunito Sans', sans-serif;
         font-weight: 600; }
       .unique__testimonial--image {
         margin-top: .5rem;
@@ -296,7 +287,6 @@ body {
       top: 3rem; }
       .home .navigation__content--heading {
         text-align: center;
-        font-family: 'Manrope', sans-serif;
         font-size: 2.8rem; }
       .home .navigation__content--description {
         padding: 0 1rem;
@@ -380,13 +370,11 @@ body {
         margin-top: 8rem; }
         .unique__couple--content-heading {
           text-align: center;
-          font-family: 'Rubik', sans-serif;
           font-size: 2.5rem;
           padding: 0 1rem; }
           .unique__couple--content-heading br {
             display: none; }
         .unique__couple--content-description {
-          font-family: 'Rubik', sans-serif;
           font-weight: 400;
           color: #333333;
           margin-top: 2rem;
@@ -402,7 +390,6 @@ body {
     .unique__team {
       margin-top: 8rem; }
       .unique__team--heading {
-        font-family: 'Libre Baskerville', serif;
         text-align: center;
         line-height: 2; }
       .unique__team--text {
@@ -433,10 +420,7 @@ body {
             margin-top: 1rem;
             margin-bottom: 2rem; }
             .unique__team--team-div div h4 {
-              font-family: 'Libre Baskerville', serif;
               line-height: 2; }
-            .unique__team--team-div div p {
-              font-family: 'Source Sans Pro', sans-serif; }
     .unique__testimonial {
       margin-top: 6rem;
       margin-bottom: 2rem; }
@@ -448,7 +432,6 @@ body {
       .unique__testimonial--text {
         margin-top: .7rem;
         text-align: center;
-        font-family: 'Nunito Sans', sans-serif;
         font-weight: 600; }
       .unique__testimonial--image {
         margin-top: .5rem;

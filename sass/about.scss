@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
@@ -96,7 +96,6 @@ $color-footer: #1B1B1B;
                 left: 4rem;
 
                 &--heading {
-                    font-family: 'Manrope', sans-serif;
                     font-size: 3.75rem;
                 }
 
@@ -215,12 +214,10 @@ $color-footer: #1B1B1B;
                 margin-left: 7rem;
 
                 &-heading {
-                    font-family: 'Rubik', sans-serif;
                     font-size: 3rem;
                 }
 
                 &-description {
-                    font-family: 'Rubik', sans-serif;
                     font-weight: 400;
                     color: #333333;
                     margin-top: 2rem;
@@ -238,7 +235,6 @@ $color-footer: #1B1B1B;
             margin-top: 8rem;
 
             &--heading {
-                font-family: 'Libre Baskerville', serif;
                 text-align: center;
                 line-height: 2;
             }
@@ -288,12 +284,10 @@ $color-footer: #1B1B1B;
                         margin-top: 2rem;
 
                     h4 {
-                            font-family: 'Libre Baskerville', serif;
                             line-height: 2;
                         }
 
                         p {
-                            font-family: 'Source Sans Pro', sans-serif;
                         }
                     }
                 }
@@ -314,7 +308,6 @@ $color-footer: #1B1B1B;
                 &--text {
                     margin-top: .7rem;
                     text-align: center;
-                    font-family: 'Nunito Sans', sans-serif;
                     font-weight: 600;
                 }
             
@@ -509,7 +502,6 @@ $color-footer: #1B1B1B;
 
                 &--heading {
                     text-align: center;
-                    font-family: 'Manrope', sans-serif;
                     font-size: 2.8rem;
                 }
 
@@ -649,7 +641,6 @@ $color-footer: #1B1B1B;
 
                 &-heading {
                     text-align: center;
-                    font-family: 'Rubik', sans-serif;
                     font-size: 2.5rem;
                     padding: 0 1rem;
 
@@ -659,7 +650,6 @@ $color-footer: #1B1B1B;
                 }
 
                 &-description {
-                    font-family: 'Rubik', sans-serif;
                     font-weight: 400;
                     color: #333333;
                     margin-top: 2rem;
@@ -684,7 +674,6 @@ $color-footer: #1B1B1B;
             margin-top: 8rem;
 
             &--heading {
-                font-family: 'Libre Baskerville', serif;
                 text-align: center;
                 line-height: 2;
             }
@@ -738,12 +727,10 @@ $color-footer: #1B1B1B;
                         margin-bottom: 2rem;
 
                     h4 {
-                            font-family: 'Libre Baskerville', serif;
                             line-height: 2;
                         }
 
                         p {
-                            font-family: 'Source Sans Pro', sans-serif;
                         }
                     }
                 }
@@ -764,7 +751,6 @@ $color-footer: #1B1B1B;
                 &--text {
                     margin-top: .7rem;
                     text-align: center;
-                    font-family: 'Nunito Sans', sans-serif;
                     font-weight: 600;
                 }
             

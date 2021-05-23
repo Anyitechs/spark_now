@@ -218,7 +218,6 @@ body {
     .testimonial__text {
       margin-top: .7rem;
       text-align: center;
-      font-family: 'Rubik', sans-serif;
       font-weight: 600; }
     .testimonial__image {
       margin-top: .5rem;
@@ -563,7 +562,6 @@ body {
     .testimonial__text {
       margin-top: .7rem;
       text-align: center;
-      font-family: 'Nunito Sans', sans-serif;
       font-weight: 600; }
     .testimonial__image {
       margin-top: .5rem;
