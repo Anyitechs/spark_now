@@ -378,8 +378,35 @@ $color-footer: #1B1B1B;
                 margin-right: 25rem;
                 line-height: 1.8;
                 // text-align: center;
+
             }
 
+            // sup, sub {
+            //     vertical-align: baseline;
+                // position: relative;
+                // top: -0.4em;
+            //   }
+            //   sub { 
+            //     top: 0.4em; 
+            //   }
+            
+            sup {
+                color: $color-primary;
+                font-size: 3rem;
+                vertical-align: baseline;
+                position: relative;
+                left: 23rem;
+                top: 2.5rem;
+            }
+
+            sub {
+                color: $color-primary;
+                font-size: 3rem;
+                vertical-align: baseline;
+                position: relative;
+                left: 53rem;
+                top: -3rem;
+            }
             &--footclose {
                 display: flex;
                 flex-direction: column;

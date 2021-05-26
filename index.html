@@ -157,14 +157,109 @@
                 <img src="images/dashed.PNG" alt="" class="testimonial__image">
 
                 <div class="testimonial__content">
-                    <img src="images/open2.png" alt="" class="testimonial__content--footopen">
+                    <!-- <img src="images/open2.png" alt="" class="testimonial__content--footopen"> -->
+                    <sup>&#8220;</sup>
                     <p class="testimonial__content--testimony">
                         Makes it a lot easier to not forget the dates of very meaningful days! 
                         It sends a notification so that you know the event is coming up 
-                        which is a great app to have with a busy schedule or lifestyle! #SparkNow
+                        which is a great app to have with a busy schedule or lifestyle!
                     </p>
-                    <img src="images/close2.png" alt="" class="testimonial__content--footclose">
-                    <p class="testimonial__content--name">Kai - Banker</p>
+                    <!-- <img src="images/close2.png" alt="" class="testimonial__content--footclose"> -->
+                    <p class="testimonial__content--name">- Kai</p>
+                    <sub>&#8221;</sub>
+                </div>
+
+                <div class="testimonial__content">
+                    <!-- <img src="images/open2.png" alt="" class="testimonial__content--footopen"> -->
+                    <sup>&#8220;</sup>
+                    <p class="testimonial__content--testimony">
+                        Ever since we have used Spark, our relationship has been so stress-free! 
+                        In the past, I would complain to my husband that he never meets 
+                        my needs and he would complain that I nag him too much! 
+                        But now that we have Spark to remind each other of our 
+                        wants and needs, I don't feel that void of him not meeting
+                         mine anymore and he does not feel that I nag anymore. 
+                         This app really has brought the spark back into our relationship!
+                    </p>
+                    <!-- <img src="images/close2.png" alt="" class="testimonial__content--footclose"> -->
+                    <p class="testimonial__content--name">- Dana</p>
+                    <sub>&#8221;</sub>
+                </div>
+
+                <div class="testimonial__content">
+                    <!-- <img src="images/open2.png" alt="" class="testimonial__content--footopen"> -->
+                    <sup>&#8220;</sup>
+                    <p class="testimonial__content--testimony">
+                        Spark gave me the reminders and motivation I need 
+                        to make sure my wife’s needs are met while 
+                        simultaneously rewarding me with my “special” 
+                        needs and more from her. It really helps me stay 
+                        on task and reminds me, rather than feeling nagged,
+                         of what my wife needs of me and helps us come together
+                          as one as a team!
+                    </p>
+                    <!-- <img src="images/close2.png" alt="" class="testimonial__content--footclose"> -->
+                    <p class="testimonial__content--name">- Jason</p>
+                    <sub>&#8221;</sub>
+                </div>
+
+                <div class="testimonial__content">
+                    <!-- <img src="images/open2.png" alt="" class="testimonial__content--footopen"> -->
+                    <sup>&#8220;</sup>
+                    <p class="testimonial__content--testimony">
+                        This app is like heaven for us. My boyfriend and I 
+                        are in a long distance relationship, but he works 
+                        hard and I have two jobs. Sometimes we're so tired 
+                        or busy that times goes by and we forget to call each 
+                        other. Spark reminders really helps. Also, not being 
+                        together makes it hard to physically go out on dates, 
+                        so I love the surprise and date night feature!
+                    </p>
+                    <!-- <img src="images/close2.png" alt="" class="testimonial__content--footclose"> -->
+                    <p class="testimonial__content--name">- Mimi</p>
+                    <sub>&#8221;</sub>
+                </div>
+
+                <div class="testimonial__content">
+                    <!-- <img src="images/open2.png" alt="" class="testimonial__content--footopen"> -->
+                    <sup>&#8220;</sup>
+                    <p class="testimonial__content--testimony">
+                        This has helped communication immensely since using
+                         this application for a few weeks. My wife and I 
+                         get along a lot better, and chores are delegated
+                          smoothly and fairly. Our sexy time has greatly
+                           improved also, to my surprise. Things have been...funner than usual. Looking forward to the future updates.
+                    </p>
+                    <!-- <img src="images/close2.png" alt="" class="testimonial__content--footclose"> -->
+                    <p class="testimonial__content--name">- Thomas</p>
+                    <sub>&#8221;</sub>
+                </div>
+
+                <div class="testimonial__content">
+                    <!-- <img src="images/open2.png" alt="" class="testimonial__content--footopen"> -->
+                    <sup>&#8220;</sup>
+                    <p class="testimonial__content--testimony">
+                        I am so excited to use the Spark Now app to continue 
+                        to enhance the love connection with My Love...Date 
+                        night is so important!!!...I Love This!!!
+                    </p>
+                    <!-- <img src="images/close2.png" alt="" class="testimonial__content--footclose"> -->
+                    <p class="testimonial__content--name">- Vanessa</p>
+                    <sub>&#8221;</sub>
+                </div>
+
+                <div class="testimonial__content">
+                    <!-- <img src="images/open2.png" alt="" class="testimonial__content--footopen"> -->
+                    <sup>&#8220;</sup>
+                    <p class="testimonial__content--testimony">
+                        Great app for couples that helps you stay managed 
+                        and keep your partner in your top priorities. 
+                        Sometimes it's just the little things that count. 
+                        This app definitely drives that point home. Love it!
+                    </p>
+                    <!-- <img src="images/close2.png" alt="" class="testimonial__content--footclose"> -->
+                    <p class="testimonial__content--name">- Carnell</p>
+                    <sub>&#8221;</sub>
                 </div>
             </div>
 
@@ -266,16 +361,21 @@
     <script type="text/javascript">
         var currentSlide = 0;
         var slides = document.querySelectorAll(".banner__slides");
+        var testimonials = document.querySelectorAll(".testimonial__content");
         const dots = document.querySelectorAll(".dot");
         
         function init(n) {
             slides.forEach((slide) => {
-                slide.style.display = "none"
+                testimonials.forEach((testimonial) => {
+                    slide.style.display = "none"
+                    testimonial.style.display = "none"
+                })
                 // dots.forEach((dot) => {
                 //     dot.classList.remove("active")
                 // })
             })
             slides[n].style.display = "block"
+            testimonials[n].style.display = "block"
             // dots[n].classList.add("active")
         }
         document.addEventListener("DOMContentLoaded", init(currentSlide))

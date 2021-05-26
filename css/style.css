@@ -229,6 +229,20 @@ body {
       margin-left: 25rem;
       margin-right: 25rem;
       line-height: 1.8; }
+    .testimonial__content sup {
+      color: #F5444F;
+      font-size: 3rem;
+      vertical-align: baseline;
+      position: relative;
+      left: 23rem;
+      top: 2.5rem; }
+    .testimonial__content sub {
+      color: #F5444F;
+      font-size: 3rem;
+      vertical-align: baseline;
+      position: relative;
+      left: 53rem;
+      top: -3rem; }
     .testimonial__content--footclose {
       display: flex;
       flex-direction: column;
