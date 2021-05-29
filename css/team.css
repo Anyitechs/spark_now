@@ -67,16 +67,13 @@ body {
       margin-top: 6.5rem;
       margin-right: 2rem; }
       .team__member--content-meet {
-        font-family: 'Source Sans Pro', sans-serif;
         color: #F5444F;
         text-transform: uppercase; }
       .team__member--content-name {
-        font-family: 'Libre Baskerville', serif;
         color: #1E1E1E;
         font-weight: 400;
         margin-top: 1.5rem; }
       .team__member--content-bio {
-        font-family: 'Source Sans Pro', sans-serif;
         color: #1E1E1E;
         line-height: 1.8;
         margin-top: 2rem; }
@@ -89,16 +86,13 @@ body {
     .team__member--terry {
       margin-top: 9rem; }
       .team__member--terry-meet {
-        font-family: 'Source Sans Pro', sans-serif;
         color: #F5444F;
         text-transform: uppercase; }
       .team__member--terry-name {
-        font-family: 'Libre Baskerville', serif;
         color: #1E1E1E;
         font-weight: 400;
         margin-top: 1.5rem; }
       .team__member--terry-bio {
-        font-family: 'Source Sans Pro', sans-serif;
         color: #1E1E1E;
         line-height: 1.8;
         margin-top: 2rem; }
@@ -123,7 +117,6 @@ body {
         text-align: center;
         line-height: 2;
         font-size: 1.5rem;
-        font-family: 'Source Sans Pro', sans-serif;
         font-weight: 700;
         color: #F5444F;
         text-transform: uppercase; }
@@ -131,7 +124,6 @@ body {
         margin-top: 1rem;
         color: #ffffff;
         text-align: center;
-        font-family: 'Source Sans Pro', sans-serif;
         font-size: 1.8rem;
         font-weight: 400; }
   .team__alcy {
@@ -146,16 +138,13 @@ body {
       margin-top: 6.5rem;
       margin-right: 2rem; }
       .team__alcy--content-meet {
-        font-family: 'Source Sans Pro', sans-serif;
         color: #F5444F;
         text-transform: uppercase; }
       .team__alcy--content-name {
-        font-family: 'Libre Baskerville', serif;
         color: #1E1E1E;
         font-weight: 400;
         margin-top: 1.5rem; }
       .team__alcy--content-bio {
-        font-family: 'Source Sans Pro', sans-serif;
         color: #1E1E1E;
         line-height: 1.8;
         margin-top: 2rem; }
@@ -168,16 +157,13 @@ body {
     .team__member--erin {
       margin-top: 11rem; }
       .team__member--erin-meet {
-        font-family: 'Source Sans Pro', sans-serif;
         color: #F5444F;
         text-transform: uppercase; }
       .team__member--erin-name {
-        font-family: 'Libre Baskerville', serif;
         color: #1E1E1E;
         font-weight: 400;
         margin-top: 1.5rem; }
       .team__member--erin-bio {
-        font-family: 'Source Sans Pro', sans-serif;
         color: #1E1E1E;
         line-height: 1.8;
         margin-top: 2rem; }
@@ -202,16 +188,13 @@ body {
       margin-top: 6.5rem;
       margin-right: 5rem; }
       .team__deborah--content-meet {
-        font-family: 'Source Sans Pro', sans-serif;
         color: #F5444F;
         text-transform: uppercase; }
       .team__deborah--content-name {
-        font-family: 'Libre Baskerville', serif;
         color: #1E1E1E;
         font-weight: 400;
         margin-top: 1.5rem; }
       .team__deborah--content-bio {
-        font-family: 'Source Sans Pro', sans-serif;
         color: #1E1E1E;
         line-height: 1.8;
         margin-top: 2rem; }
@@ -231,14 +214,12 @@ body {
       .team__philosophy--content-heading {
         margin-left: -1rem;
         color: #ffffff;
-        font-family: 'Source Sans Pro', sans-serif;
         font-size: 1.3rem;
         font-weight: 700;
         line-height: 3; }
       .team__philosophy--content-list--item {
         color: #ffffff;
-        font-size: 1.1rem;
-        font-family: 'Source Sans Pro', sans-serif; }
+        font-size: 1.1rem; }
   .box {
     background-color: #F5444F;
     display: flex;
@@ -392,16 +373,13 @@ body {
     .team__member--content {
       margin-top: 2rem; }
       .team__member--content-meet {
-        font-family: 'Source Sans Pro', sans-serif;
         color: #F5444F;
         text-transform: uppercase; }
       .team__member--content-name {
-        font-family: 'Libre Baskerville', serif;
         color: #1E1E1E;
         font-weight: 400;
         margin-top: 1.5rem; }
       .team__member--content-bio {
-        font-family: 'Source Sans Pro', sans-serif;
         color: #1E1E1E;
         line-height: 1.8;
         margin-top: 2rem; }
@@ -414,16 +392,13 @@ body {
     .team__member--terry {
       margin-top: 2rem; }
       .team__member--terry-meet {
-        font-family: 'Source Sans Pro', sans-serif;
         color: #F5444F;
         text-transform: uppercase; }
       .team__member--terry-name {
-        font-family: 'Libre Baskerville', serif;
         color: #1E1E1E;
         font-weight: 400;
         margin-top: 1.5rem; }
       .team__member--terry-bio {
-        font-family: 'Source Sans Pro', sans-serif;
         color: #1E1E1E;
         line-height: 1.8;
         margin-top: 2rem; }
@@ -445,7 +420,6 @@ body {
         text-align: center;
         line-height: 2;
         font-size: .7rem;
-        font-family: 'Source Sans Pro', sans-serif;
         font-weight: 700;
         color: #F5444F;
         text-transform: uppercase; }
@@ -453,7 +427,6 @@ body {
         margin-top: 1rem;
         color: #ffffff;
         text-align: center;
-        font-family: 'Source Sans Pro', sans-serif;
         font-size: .8rem;
         font-weight: 400; }
   .team__alcy {
@@ -470,16 +443,13 @@ body {
     .team__alcy--content {
       margin-top: 2rem; }
       .team__alcy--content-meet {
-        font-family: 'Source Sans Pro', sans-serif;
         color: #F5444F;
         text-transform: uppercase; }
       .team__alcy--content-name {
-        font-family: 'Libre Baskerville', serif;
         color: #1E1E1E;
         font-weight: 400;
         margin-top: 1.5rem; }
       .team__alcy--content-bio {
-        font-family: 'Source Sans Pro', sans-serif;
         color: #1E1E1E;
         line-height: 1.8;
         margin-top: 2rem; }
@@ -502,16 +472,13 @@ body {
     .team__member--erin {
       margin-top: 2rem; }
       .team__member--erin-meet {
-        font-family: 'Source Sans Pro', sans-serif;
         color: #F5444F;
         text-transform: uppercase; }
       .team__member--erin-name {
-        font-family: 'Libre Baskerville', serif;
         color: #1E1E1E;
         font-weight: 400;
         margin-top: 1.5rem; }
       .team__member--erin-bio {
-        font-family: 'Source Sans Pro', sans-serif;
         color: #1E1E1E;
         line-height: 1.8;
         margin-top: 2rem; }
@@ -540,16 +507,13 @@ body {
     .team__deborah--content {
       margin-top: 2rem; }
       .team__deborah--content-meet {
-        font-family: 'Source Sans Pro', sans-serif;
         color: #F5444F;
         text-transform: uppercase; }
       .team__deborah--content-name {
-        font-family: 'Libre Baskerville', serif;
         color: #1E1E1E;
         font-weight: 400;
         margin-top: 1.5rem; }
       .team__deborah--content-bio {
-        font-family: 'Source Sans Pro', sans-serif;
         color: #1E1E1E;
         line-height: 1.8;
         margin-top: 2rem; }
