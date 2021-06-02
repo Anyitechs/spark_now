@@ -167,7 +167,6 @@
 
                 <div class="testimonial__content">
                     <!-- <img src="images/open2.png" alt="" class="testimonial__content--footopen"> -->
-                    <sup>&#8220;</sup>
                     <p class="testimonial__content--testimony">
                         Makes it a lot easier to not forget the dates of very meaningful days! 
                         It sends a notification so that you know the event is coming up 
@@ -175,12 +174,10 @@
                     </p>
                     <!-- <img src="images/close2.png" alt="" class="testimonial__content--footclose"> -->
                     <p class="testimonial__content--name">- Kai</p>
-                    <sub>&#8221;</sub>
                 </div>
 
                 <div class="testimonial__content">
                     <!-- <img src="images/open2.png" alt="" class="testimonial__content--footopen"> -->
-                    <sup>&#8220;</sup>
                     <p class="testimonial__content--testimony">
                         Ever since we have used Spark, our relationship has been so stress-free! 
                         In the past, I would complain to my husband that he never meets 
@@ -192,12 +189,10 @@
                     </p>
                     <!-- <img src="images/close2.png" alt="" class="testimonial__content--footclose"> -->
                     <p class="testimonial__content--name">- Dana</p>
-                    <sub>&#8221;</sub>
                 </div>
 
                 <div class="testimonial__content">
                     <!-- <img src="images/open2.png" alt="" class="testimonial__content--footopen"> -->
-                    <sup>&#8220;</sup>
                     <p class="testimonial__content--testimony">
                         Spark gave me the reminders and motivation I need 
                         to make sure my wife’s needs are met while 
@@ -209,12 +204,10 @@
                     </p>
                     <!-- <img src="images/close2.png" alt="" class="testimonial__content--footclose"> -->
                     <p class="testimonial__content--name">- Jason</p>
-                    <sub>&#8221;</sub>
                 </div>
 
                 <div class="testimonial__content">
                     <!-- <img src="images/open2.png" alt="" class="testimonial__content--footopen"> -->
-                    <sup>&#8220;</sup>
                     <p class="testimonial__content--testimony">
                         This app is like heaven for us. My boyfriend and I 
                         are in a long distance relationship, but he works 
@@ -226,12 +219,10 @@
                     </p>
                     <!-- <img src="images/close2.png" alt="" class="testimonial__content--footclose"> -->
                     <p class="testimonial__content--name">- Mimi</p>
-                    <sub>&#8221;</sub>
                 </div>
 
                 <div class="testimonial__content">
                     <!-- <img src="images/open2.png" alt="" class="testimonial__content--footopen"> -->
-                    <sup>&#8220;</sup>
                     <p class="testimonial__content--testimony">
                         This has helped communication immensely since using
                          this application for a few weeks. My wife and I 
@@ -241,12 +232,10 @@
                     </p>
                     <!-- <img src="images/close2.png" alt="" class="testimonial__content--footclose"> -->
                     <p class="testimonial__content--name">- Thomas</p>
-                    <sub>&#8221;</sub>
                 </div>
 
                 <div class="testimonial__content">
                     <!-- <img src="images/open2.png" alt="" class="testimonial__content--footopen"> -->
-                    <sup>&#8220;</sup>
                     <p class="testimonial__content--testimony">
                         I am so excited to use the Spark Now app to continue 
                         to enhance the love connection with My Love...Date 
@@ -254,12 +243,10 @@
                     </p>
                     <!-- <img src="images/close2.png" alt="" class="testimonial__content--footclose"> -->
                     <p class="testimonial__content--name">- Vanessa</p>
-                    <sub>&#8221;</sub>
                 </div>
 
                 <div class="testimonial__content">
                     <!-- <img src="images/open2.png" alt="" class="testimonial__content--footopen"> -->
-                    <sup>&#8220;</sup>
                     <p class="testimonial__content--testimony">
                         Great app for couples that helps you stay managed 
                         and keep your partner in your top priorities. 
@@ -268,8 +255,21 @@
                     </p>
                     <!-- <img src="images/close2.png" alt="" class="testimonial__content--footclose"> -->
                     <p class="testimonial__content--name">- Carnell</p>
-                    <sub>&#8221;</sub>
                 </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currenSlide(1)"></span>
+                <span class="dot" onclick="currenSlide(2)"></span>
+                <span class="dot" onclick="currenSlide(3)"></span>
+                <span class="dot" onclick="currenSlide(4)"></span>
+                <span class="dot" onclick="currenSlide(5)"></span>
+                <span class="dot" onclick="currenSlide(6)"></span>
+                <span class="dot" onclick="currenSlide(7)"></span>
             </div>
 
             <!-- <div class="hand">
@@ -367,6 +367,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="testimonial.js"></script>
     <script type="text/javascript">
         var currentSlide = 0;
         var slides = document.querySelectorAll(".banner__slides");
@@ -375,16 +376,12 @@
         
         function init(n) {
             slides.forEach((slide) => {
-                testimonials.forEach((testimonial) => {
                     slide.style.display = "none"
-                    testimonial.style.display = "none"
-                })
                 // dots.forEach((dot) => {
                 //     dot.classList.remove("active")
                 // })
             })
             slides[n].style.display = "block"
-            testimonials[n].style.display = "block"
             // dots[n].classList.add("active")
         }
         document.addEventListener("DOMContentLoaded", init(currentSlide))

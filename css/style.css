@@ -68,17 +68,6 @@ body {
         justify-content: center;
         align-items: center;
         position: relative; }
-        .home .banner__slide .prev, .home .banner__slide .next {
-          cursor: pointer;
-          position: absolute;
-          top: 100%;
-          width: auto;
-          padding: 16px;
-          color: white;
-          font-weight: bold;
-          font-size: 20px;
-          transition: all 0.6s ease;
-          user-select: none; }
       .home .banner__slides {
         display: none;
         width: 100%; }
@@ -210,6 +199,25 @@ body {
   .testimonial {
     margin-top: 6rem;
     margin-bottom: -5rem; }
+    .testimonial .prev, .testimonial .next {
+      cursor: pointer;
+      position: relative;
+      top: -7rem;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none; }
+    .testimonial .prev {
+      right: -20rem; }
+    .testimonial .next {
+      right: -51.7rem;
+      border-radius: 3px 0 0 3px; }
+    .testimonial .prev:hover, .testimonial .next:hover {
+      background-color: #bbb; }
     .testimonial__heading {
       text-align: center;
       font-size: 2rem;
@@ -252,6 +260,17 @@ body {
       margin-left: 25rem;
       margin-top: 1rem;
       line-height: 2.5; }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 45px 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease; }
+  .active, .dot:hover {
+    background-color: #717171; }
   .hand {
     position: relative;
     margin-bottom: -13rem; }
@@ -412,17 +431,6 @@ body {
         display: flex;
         flex-direction: column;
         position: relative; }
-        .home .banner__slide .prev, .home .banner__slide .next {
-          cursor: pointer;
-          position: absolute;
-          top: 100%;
-          width: auto;
-          padding: 16px;
-          color: white;
-          font-weight: bold;
-          font-size: 20px;
-          transition: all 0.6s ease;
-          user-select: none; }
       .home .banner__slides {
         display: none;
         width: 100%; }
