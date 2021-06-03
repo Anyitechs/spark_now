@@ -35,7 +35,8 @@ body {
         position: absolute;
         z-index: -1; }
       .home .navigation__logo {
-        margin-top: 1.2rem;
+        margin-top: 1rem;
+        width: 85%;
         margin-left: 4rem; }
       .home .navigation__list {
         margin-top: 3.5rem;

@@ -27,6 +27,7 @@ body {
         display: none; }
       .home .navigation__logo {
         margin-top: 1.2rem;
+        width: 85%;
         margin-left: 4rem; }
       .home .navigation__list {
         margin-top: 3.5rem;

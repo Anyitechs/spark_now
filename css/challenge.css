@@ -25,7 +25,8 @@ body {
         color: #ffffff;
         display: none; }
       .home .navigation__logo {
-        max-width: 100%;
+        width: 100%;
+        margin-top: .5rem;
         margin-left: 3rem; }
         .home .navigation__logo--link {
           text-decoration: none; }
