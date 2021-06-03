@@ -214,7 +214,7 @@ body {
     .testimonial .prev {
       right: -20rem; }
     .testimonial .next {
-      right: -51.7rem;
+      left: 53rem;
       border-radius: 3px 0 0 3px; }
     .testimonial .prev:hover, .testimonial .next:hover {
       background-color: #bbb; }
