@@ -367,7 +367,9 @@ $color-footer: #1B1B1B;
         }
 
         .next {
-            left: 53rem;
+            float: right;
+            left: -20rem;
+            // left: 53rem;
             border-radius: 3px 0 0 3px;
         }
 
