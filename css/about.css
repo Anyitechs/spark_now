@@ -369,6 +369,9 @@ body {
         width: 100%; }
       .unique__couple--content {
         margin-top: 8rem; }
+        .unique__couple--content .sparkler {
+          margin-top: 1rem;
+          text-align: center; }
         .unique__couple--content-heading {
           text-align: center;
           font-size: 2.5rem;
